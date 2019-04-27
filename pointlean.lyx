@@ -1,0 +1,592 @@
+#LyX 2.3 created this file. For more info see http://www.lyx.org/
+\lyxformat 544
+\begin_document
+\begin_header
+\save_transient_properties true
+\origin unavailable
+\textclass article
+\use_default_options true
+\maintain_unincluded_children false
+\language french
+\language_package default
+\inputencoding auto
+\fontencoding global
+\font_roman "default" "default"
+\font_sans "default" "default"
+\font_typewriter "default" "default"
+\font_math "auto" "auto"
+\font_default_family default
+\use_non_tex_fonts false
+\font_sc false
+\font_osf false
+\font_sf_scale 100 100
+\font_tt_scale 100 100
+\use_microtype false
+\use_dash_ligatures true
+\graphics default
+\default_output_format default
+\output_sync 0
+\bibtex_command default
+\index_command default
+\paperfontsize default
+\spacing single
+\use_hyperref false
+\papersize default
+\use_geometry false
+\use_package amsmath 1
+\use_package amssymb 1
+\use_package cancel 1
+\use_package esint 1
+\use_package mathdots 1
+\use_package mathtools 1
+\use_package mhchem 1
+\use_package stackrel 1
+\use_package stmaryrd 1
+\use_package undertilde 1
+\cite_engine basic
+\cite_engine_type default
+\biblio_style plain
+\use_bibtopic false
+\use_indices false
+\paperorientation portrait
+\suppress_date false
+\justification true
+\use_refstyle 1
+\use_minted 0
+\index Index
+\shortcut idx
+\color #008000
+\end_index
+\secnumdepth 3
+\tocdepth 3
+\paragraph_separation indent
+\paragraph_indentation default
+\is_math_indent 0
+\math_numbering_side default
+\quotes_style swiss
+\dynamic_quotes 0
+\papercolumns 1
+\papersides 1
+\paperpagestyle default
+\tracking_changes false
+\output_changes false
+\html_math_output 0
+\html_css_as_file 0
+\html_be_strict false
+\end_header
+
+\begin_body
+
+\begin_layout Title
+Là où se trouve la vraie force d'une Obeya
+\end_layout
+
+\begin_layout Author
+Régis Medina et Sandrine Olivencia, coachs Lean à l'Institut Lean France
+\end_layout
+
+\begin_layout Description
+La salle d'obéissance limite le nombre d'inconnues avant de commencer à
+ développer un produit.
+ En ce sens, c'est plus un outil de découverte qu'un outil de diffusion.
+\end_layout
+
+\begin_layout Standard
+L'un des principaux défis de la mise à l'échelle d'une entreprise est la
+ croissance des équipes de produits et d'ingénierie.
+ Il semble toujours que les équipes techniques ne sont jamais assez rapides
+ : la feuille de route des produits est pleine à craquer de fonctionnalités
+ à développer, et les vice-présidents de toute l'entreprise - ventes, marketing,
+ support client, opérations - sont sans cesse à la course pour pousser leurs
+ propres demandes vers le haut de la liste.
+ Il s'agit là d'un défi difficile pour le PDG et très difficile pour le
+ chef de produit.
+\end_layout
+
+\begin_layout Standard
+Au premier abord, cela ressemble à un problème de productivité : comment
+ pouvons-nous amener les développeurs à pomper les fonctionnalités plus
+ rapidement ? En y regardant de plus près, il apparaît souvent que :
+\end_layout
+
+\begin_layout Standard
+Les développeurs passent un temps excessif à traiter des spécifications
+ incomplètes ou incohérentes, parce que les besoins des utilisateurs ne
+ sont pas entièrement compris.
+ Les changements sont fréquemment demandés en cours de développement, ce
+ qui augmente le coût des nouvelles évolutions et fait perdre un temps de
+ développement précieux.
+ Les évolutions génèrent de nouveaux problèmes pour les utilisateurs à l'intérie
+ur et à l'extérieur de l'entreprise, parce que des détails importants ont
+ été omis lors de la spécification des fonctionnalités ou parce que l'équipe
+ s'est précipitée pour livrer les fonctionnalités présentant des défauts.
+ Cela crée à son tour le besoin de nouvelles "caractéristiques" pour corriger
+ la situation.
+ Malgré tous ces efforts, les résultats commerciaux sont décevants.
+ En fait, il ne s'agit pas d'assurer la prestation ou d'organiser les gens
+ et les tâches pour obtenir un résultat connu plus efficacement.
+ C'est une question de découverte : explorer et définir ce que devrait être
+ le produit pour faire un pari moins risqué.
+\end_layout
+
+\begin_layout Standard
+Qu'est-ce que le Lean nous apprend sur la découverte ?
+\end_layout
+
+\begin_layout Part*
+Comprendre la valeur : une question de travail d'équipe
+\end_layout
+
+\begin_layout Standard
+D'un point de vue lean, la découverte consiste d'abord à apprendre comment
+ le produit crée de la valeur pour le client, et ensuite à concevoir et
+ construire le produit de manière à ne pas imposer le coût de nos déchets
+ au client.
+\end_layout
+
+\begin_layout Standard
+La valeur et les déchets doivent être pris en compte tout au long de la
+ chaîne de valeur et pas seulement sur le produit technologique de base.
+ Par conséquent, la découverte englobe l'ensemble du produit, de l'expérience
+ client aux processus internes de l'entreprise.
+\end_layout
+
+\begin_layout Standard
+Prenons l'exemple d'un service de covoiturage.
+ Le produit de base pourrait être l'application utilisée pour réserver un
+ trajet ou le système qui attribue les trajets aux conducteurs.
+ En revanche, l'ensemble du produit englobe toute la gamme des systèmes
+ et des services qui constituent l'expérience utilisateur.
+ Dans ce cas, un élément majeur de la performance du point de vue du client
+ est le temps qu'il faut attendre pour une voiture.
+ Cela dépend de l'algorithme d'allocation des trajets, mais aussi du nombre
+ de conducteurs sur les routes à un moment donné.
+ Cela signifie que pour concevoir un service qui tient pleinement ses promesses
+ envers les utilisateurs, vous devez également prendre en compte l'expérience
+ globale du conducteur et persuader des milliers d'entre eux d'utiliser
+ la plate-forme.
+ Il en résulte la nécessité d'un service d'embarquement évolutif pour les
+ conducteurs, ainsi que pour de nombreuses personnes chargées de gérer le
+ hoquet quotidien.
+\end_layout
+
+\begin_layout Standard
+Pour que le produit soit un succès, vous devez concevoir un ensemble complet
+ de produits et de processus.
+ Par conséquent, l'équipe produit doit comprendre des représentants de tous
+ les services d'une entreprise : produit, technologie, marketing, ventes,
+ opérations, juridique, etc.
+\end_layout
+
+\begin_layout Standard
+Il est difficile de faire en sorte que toutes ces personnes travaillent
+ ensemble à la réalisation d'un objectif commun : elles ont généralement
+ des priorités différentes et ne voient souvent pas l'impact de leurs décisions
+ locales sur la "situation globale".
+ Il n'y a pas de recette à suivre pour les aligner tous.
+ Cette question est traditionnellement gérée comme une question organisationnell
+e, traitée en termes de rôles et de processus, mais elle est conçue comme
+ un exercice d'apprentissage : "Qui a besoin d'apprendre quoi pour que le
+ produit soit un succès ?" Mais comment faire en sorte qu'un groupe aussi
+ diversifié, poursuivant des objectifs différents, apprenne ensemble et
+ aille dans la même direction ?
+\end_layout
+
+\begin_layout Part*
+L'ingénieur en chef
+\end_layout
+
+\begin_layout Standard
+Toyota s'attaque à ce problème en nommant un ingénieur en chef responsable
+ de toutes les dimensions du produit.
+ Considérez l'ingénieur en chef comme un entrepreneur, un individu motivé
+ et passionné par le produit et les clients.
+ Une personne avec assez de savoir-faire pour creuser dans les questions
+ techniques et avec assez de compétences de leadership pour gérer la politique
+ du projet.
+ Steve Jobs, bien qu'étant également PDG d'Apple, était l'archétype de l'ingénie
+ur en chef.
+\end_layout
+
+\begin_layout Standard
+La tâche principale de l'ingénieur en chef est de créer les conditions d'une
+ collaboration approfondie entre des spécialistes de domaines très différents.
+ Le CE n'a aucune autorité hiérarchique sur eux lorsqu'ils passent d'un
+ projet à l'autre, mais il/elle a toute autorité pour faire de ce produit
+ un grand succès.
+ Il est donc important que sa compétence soit reconnue et respectée si l'on
+ veut que les gens suivent sa vision.
+ Le CE doit travailler dur pour construire une solide analyse de rentabilisation
+ pour "vendre" ses idées et ne peut pas simplement imposer son point de
+ vue aux gens.
+\end_layout
+
+\begin_layout Standard
+Les ingénieurs en chef sont une race rare, et il n'y en a pas deux pareilles.
+ Ils ont certes des traits personnels spécifiques, mais ils se développent
+ aussi au fil des années pour acquérir une large gamme de compétences, en
+ travaillant sur de nombreuses activités différentes au sein de l'entreprise.
+ Ils continuent d'apprendre et de conduire l'apprentissage de l'équipe produit
+ avec un outil spécifique : l'obéissance.
+\end_layout
+
+\begin_layout Part*
+L'Obeya
+\end_layout
+
+\begin_layout Standard
+Au début des années 1990, Takeshi Uchiyamada, ingénieur en chef chez Toyota,
+ s'est vu confier un défi de taille : concevoir la voiture du XXIe siècle,
+ avec des objectifs de consommation de carburant très ambitieux.
+ En moins de trois ans, la première voiture hybride, la Prius, a été mise
+ sur le marché - 15 ans avant la concurrence.
+ Pour réaliser un tel exploit, l'ingénieur en chef a également dû inventer
+ une nouvelle approche de développement de produits et de procédés.
+ Il a conçu un nouveau type de gestion visuelle, qui s'est répandu depuis
+ dans les bureaux d'études Toyota : l'obeya.
+\end_layout
+
+\begin_layout Standard
+Obeya signifie "grande pièce" en japonais.
+ C'est un grand bureau où les murs sont couverts d'informations : cartes,
+ dessins, plans, etc.
+\end_layout
+
+\begin_layout Standard
+Une obédience n'est pas un autre outil de gestion de projet.
+ L'objectif n'est ni de passer en revue les progrès réalisés, ni d'établir
+ un ordre de priorité des caractéristiques.
+ Le but est plutôt de réfléchir en profondeur, de parler, d'argumenter sur
+ les principaux enjeux du projet.
+ C'est un espace de découverte.
+\end_layout
+
+\begin_layout Standard
+Les ingénieurs en chef rendent l'information et les connaissances visibles
+ dans l'obéissance parce que c'est un moyen puissant d'aligner les gens.
+ Les malentendus surgissent rapidement pour que les gens puissent en parler
+ et développer une compréhension commune de la situation.
+ Cela mène à de longues discussions et à des arguments enflammés, mais c'est
+ le processus par lequel les gens se retrouvent sur la même longueur d'onde
+ et apprennent ensemble.
+ Le temps passé à aligner les gens plus tôt est plus que payant dans les
+ phases ultérieures du projet.
+\end_layout
+
+\begin_layout Standard
+Il n'y a pas de règles établies pour ce que l'ingénieur en chef et son équipe
+ doivent afficher sur les murs.
+ Chaque obédience est unique, car elle dépend de la maturité de l'équipe
+ et du stade du projet.
+ Il y a cependant quelques sujets à explorer, quel que soit le produit.
+ Ces sujets se présentent sous la forme de quatre questions :
+\end_layout
+
+\begin_layout Section
+Quel est le problème que nous voulons résoudre, et pour qui ?
+\end_layout
+
+\begin_layout Standard
+Construire un produit réussi est moins une question de construction (" ajoutons
+ cette fonctionnalité ") qu'un exercice de résolution de problème (" que
+ devrions-nous faire pour obtenir ce résultat ? ").
+ Le problème, c'est que nous nous précipitons généralement vers la solution
+ avant de définir le problème à résoudre.
+\end_layout
+
+\begin_layout Standard
+Les praticiens Lean utilisent la méthode scientifique, avec le cycle Plan-Do-Che
+ck-Act (PDCA), pour résoudre les problèmes commerciaux.
+ Le développement de produits ne fait pas exception.
+ Construire un produit est en soi une boucle PDCA :
+\end_layout
+
+\begin_layout Standard
+Plan : définir le problème client à résoudre, développer une compréhension
+ approfondie de la situation et identifier les principales caractéristiques
+ du produit cible.
+ Faire : construire le produit.
+ Vérifier : analyser les résultats de l'entreprise pour voir ce qui fonctionne
+ et ce qui ne fonctionne pas.
+ Agir : tirer les leçons pour améliorer le prochain cycle de développement
+ des produits.
+ Un bon énoncé de problème décrit une cible ambitieuse.
+ Par exemple, le défi du Shinkansen était de permettre aux gens de voyager
+ de Tokyo à Osaka en trois heures en moins de cinq ans.
+\end_layout
+
+\begin_layout Standard
+La prochaine chose à apprendre et à explorer dans l'obéissance est la façon
+ dont les clients perçoivent la valeur.
+ Ce type d'apprentissage est le résultat d'une immersion profonde dans la
+ vie des clients.
+ Cela commence par les plaintes des clients, qui essaient de comprendre
+ ce qu'ils essayaient de faire avec les solutions actuelles et comment ces
+ solutions ont échoué.
+ C'est aussi passer du temps avec eux pour mieux comprendre comment ils
+ essaient de résoudre leurs problèmes aujourd'hui.
+\end_layout
+
+\begin_layout Standard
+L'ingénieur en chef et l'équipe produit doivent en avoir une idée :
+\end_layout
+
+\begin_layout Standard
+Qui sont les clients cibles, quel est leur style de vie et leurs goûts ?
+ Quel est le problème concret qu'ils veulent résoudre eux-mêmes ? Dans quel
+ contexte et dans quelles circonstances particulières ? Quelles alternatives
+ peuvent-ils choisir pour obtenir ce qu'ils veulent ? Pourquoi choisissent-ils
+ une alternative plutôt qu'une autre ? Qu'aiment-ils et qu'est-ce qu'ils
+ détestent des solutions existantes ? Quels problèmes spécifiques rencontrent-il
+s avec les solutions existantes ? Quelles préférences devrions-nous nous
+ assurer de satisfaire pleinement afin de ne pas les décevoir ? Quel(s)
+ aspect(s) pouvons-nous ou devrions-nous améliorer afin d'attirer l'attention
+ des gens ? Par exemple, pour un service de covoiturage, le client souhaite
+ se rendre du point A au point B, et pour y parvenir, il peut choisir entre
+ des services concurrents, une compagnie de taxis régulière, mais aussi
+ des services de train ou de bus.
+ Sa décision sera basée sur un ensemble de préférences pour chaque solution
+ :
+\end_layout
+
+\begin_layout Standard
+Facile à réserver.
+ Pas besoin d'attendre trop longtemps.
+ Une conduite confortable.
+ Une bonne expérience avec le chauffeur.
+ Pas trop cher.
+ Etc.
+ Il en va de même pour les conducteurs, qui doivent choisir entre différentes
+ plates-formes.
+ La question décisive qui déterminera la vision du produit est la suivante
+ : quelle est la principale préférence des clients cibles ? Comment pouvons-nous
+ différencier la prochaine génération du produit sur quelque chose qui correspon
+d à ce qui compte le plus pour les clients ? C'est essentiel pour concentrer
+ les efforts de développement de produits sur ce qui compte le plus.
+\end_layout
+
+\begin_layout Section
+Quels sont les avantages escomptés du projet pour l'entreprise ?
+\end_layout
+
+\begin_layout Standard
+Il y a quelques années, une société de production publicitaire a commencé
+ à développer un système interne de gestion du flux de travail.
+ L'objectif était de fournir aux photographes, graphistes, chefs de produits
+ et imprimeurs une solution tout-en-un pour éviter de perdre du temps dans
+ une avalanche d'emails et de fichiers Excel.
+ Le projet a été difficile, principalement parce que l'équipe des produits
+ n'a pas eu accès à des représentants clés de divers ministères qui se concentra
+ient sur d'autres priorités.
+ Deux ans plus tard, le produit était opérationnel, mais l'équipe de direction
+ était confrontée à un problème : elle avait investi la majeure partie des
+ bénéfices de l'entreprise dans cet outil, mais elle n'était pas en mesure
+ de déterminer les avantages qu'il avait apportés à l'entreprise.
+\end_layout
+
+\begin_layout Standard
+L'une des premières questions auxquelles l'ingénieur en chef et son équipe
+ doivent répondre au début du projet est la suivante : quels sont les gains
+ attendus pour l'entreprise ? L'objectif ici est d'élaborer une analyse
+ de rentabilisation convaincante qui sera utile :
+\end_layout
+
+\begin_layout Standard
+en faire un élément hautement prioritaire pour tous les intervenants dont
+ on a besoin ; établir la bonne structure de coûts du projet ; vérifier
+ que les gains sont bien récoltés lorsque le produit est sorti.
+ Dans cet exemple, l'analyse de rentabilisation aurait pu consister à réduire
+ le taux de désabonnement en offrant une interaction plus agréable avec
+ les équipes des clients.
+ Il aurait également pu s'agir de réduire de moitié le délai d'exécution
+ des nouvelles campagnes publicitaires ou d'augmenter la productivité de
+ l'équipe de conception graphique, mesurée par le nombre de projets de conceptio
+n gérés par personne chaque mois.
+ Elle pourrait également contribuer à la croissance de l'entreprise en débloquan
+t des ventes qui n'auraient pas été possibles sans ce produit.
+\end_layout
+
+\begin_layout Section
+Quelles décisions techniques devons-nous prendre pour créer un produit cohérent
+ et rentable ?
+\end_layout
+
+\begin_layout Standard
+L'ingénieur en chef et son équipe développent leur compréhension du produit
+ en explorant comment ses différentes fonctions contribuent ou non à la
+ valeur perçue par les clients et comment ces fonctions interagissent ensemble.
+ Ils essaient de savoir quels problèmes doivent être résolus avant de construire
+ le produit.
+\end_layout
+
+\begin_layout Standard
+Prenons l'exemple de la tarification de pointe.
+ Cette fonction permet de réduire le temps d'attente des conducteurs en
+ incitant davantage de conducteurs à être disponibles lorsque la demande
+ est forte.
+ Cependant, cela nuit aussi à l'expérience du pilote avec des prix élevés
+ au moment où il a le plus besoin du service.
+ Cela rend également les prix moins clairs pour les conducteurs, qui peuvent
+ se sentir floués lorsqu'ils ont l'impression que la demande devrait être
+ élevée, mais qu'ils ne voient aucune augmentation de leurs revenus.
+ A l'échelle d'un tel service, cela représente des centaines ou des milliers
+ d'appels supplémentaires pour les équipes de support utilisateurs et conducteur
+s, et donc un impact important sur les coûts opérationnels.
+\end_layout
+
+\begin_layout Standard
+Afin de cerner et d'aborder ce genre de questions avant qu'elles ne soient
+ élaborées, l'ingénieur en chef commence par demander à l'équipe de déterminer
+ comment les fonctions du produit sont liées aux préférences du client et
+ de surveiller les compromis à faire.
+ L'objectif est de trouver comment mieux satisfaire ces préférences tout
+ en restant rentable.
+ L'équipe tente également de comprendre comment les fonctions du produit
+ interagissent les unes avec les autres afin de trouver les frictions qui
+ peuvent rendre le produit plus complexe et difficile à construire et à
+ entretenir.
+\end_layout
+
+\begin_layout Standard
+L'équipe peut alors apprendre comment résoudre les compromis en essayant
+ de nombreuses combinaisons différentes et en analysant leur performance,
+ et résumer leurs apprentissages dans l'obéissance.
+\end_layout
+
+\begin_layout Standard
+A ce stade, l'un des principaux risques est de changer les aspects des produits
+ qui ne doivent pas être touchés - ce que nous appelons "technologie du
+ patrimoine" - tout en conservant les aspects qui créent une complexité
+ inutile et empêchent l'innovation - ce que nous appelons "technologie tradition
+nelle".
+ Pour l'équipe produit, il s'agit d'un véritable défi car il n'est pas toujours
+ facile de distinguer les deux.
+\end_layout
+
+\begin_layout Standard
+La technologie patrimoniale est tout ce qui définit l'essence même du produit
+ et justifie son existence.
+ Les claviers QWERTY et AZERTY, qui n'ont pas changé en 150 ans depuis l'inventi
+on des machines à écrire, en sont un exemple courant.
+ Ces agencements de claviers étranges ont été créés à l'origine pour relever
+ un défi mécanique : les touches les plus couramment utilisées s'emmêlaient
+ les unes dans les autres.
+ Quelques fabricants de claviers ont depuis essayé de proposer des vitesses
+ de frappe plus élevées avec des mises en page plus efficaces, mais ils
+ ne sont plus là pour raconter l'histoire.
+ Partout dans le monde, les gens s'y sont tellement habitués qu'ils ont
+ fortement résisté au changement.
+ C'est l'essence même de la technologie patrimoniale.
+\end_layout
+
+\begin_layout Standard
+Inversement, le système de ressorts qui fait rebondir les touches peut être
+ considéré comme une technologie héritée du passé, car les nouvelles approches
+ permettent une frappe plus silencieuse et plus rapide.
+ Des entreprises comme Apple investissent constamment dans d'autres aspects
+ de la technologie - la forme et l'espacement des touches, la distance de
+ déplacement vertical, etc.
+ - d'améliorer les solutions patrimoniales tout en conservant la même dispositio
+n patrimoniale.
+\end_layout
+
+\begin_layout Standard
+Mais encore une fois, peut-être même que la mise en page pourrait un jour
+ être considérée comme un "héritage", surtout si la technologie de reconnaissanc
+e vocale devenait suffisamment fiable pour remplacer complètement la dactylograp
+hie.
+ C'est une discussion sans fin au sein d'une équipe produit, c'est pourquoi
+ elle doit avoir lieu dans l'obédience.
+\end_layout
+
+\begin_layout Section
+Construisons-nous un produit de qualité à temps pour battre la concurrence
+ ?
+\end_layout
+
+\begin_layout Standard
+La découverte s'applique également au processus de développement du produit
+ lui-même.
+ L'ingénieur en chef et l'équipe produit sont d'accord :
+\end_layout
+
+\begin_layout Standard
+comment ils définissent et suivent la qualité tout au long du projet ; les
+ étapes qu'ils doivent franchir pour livrer à temps ; comment mesurer les
+ coûts.
+ La qualité fait référence au produit lui-même.
+ Les indicateurs de qualité permettent de savoir si les fonctions du produit
+ répondent pleinement aux attentes des clients en termes de fiabilité, de
+ performance et de facilité d'utilisation.
+ Afin de choisir les bons indicateurs qui les guideront tout au long du
+ cycle de vie du produit, l'ingénieur en chef et l'équipe produit doivent
+ se mettre à la place de leurs clients cibles : qu'est-ce qui ne devrait
+ PAS aller de travers ? Prenez une ampoule LED : un gage de qualité peut
+ être qu'elle respecte la durée de vie, la luminosité et la couleur attendues,
+ qu'elle ne surchauffe pas, ou qu'elle est résistante aux chocs.
+ Ces indicateurs de qualité sont souvent le résultat d'arbitrages techniques
+ que l'équipe produit a dû résoudre à l'avance.
+ Il est donc logique de les suivre tout au long des étapes de conception
+ et de développement, afin que l'équipe puisse découvrir toutes les raisons
+ pour lesquelles elle ne réussit pas à construire un produit de qualité.
+\end_layout
+
+\begin_layout Standard
+En plus de la qualité, l'ingénieur en chef et l'équipe de produit suivront
+ généralement le délai de réalisation à l'aide d'un plan de projet important
+ et visible.
+ Ce plan est utilisé pour aligner tout le monde sur les principaux jalons
+ du produit et voir comment les activités et les décisions de chaque équipe
+ ont un impact sur les autres.
+ Le plan de projet permet aux membres de l'équipe de mieux prévoir les problèmes
+ et de discuter des moyens de les résoudre avant qu'ils ne compromettent
+ la livraison du produit en temps opportun.
+ Mais surtout, le plan de projet est un moyen pour l'ingénieur en chef et
+ l'équipe produit de découvrir des moyens d'intensifier la collaboration
+ entre les différentes équipes et parties prenantes à l'intérieur et à l'extérie
+ur de l'organisation.
+\end_layout
+
+\begin_layout Standard
+Enfin, une obéissance comprend généralement des mesures pour surveiller
+ les coûts (non seulement les coûts de développement du produit, mais aussi
+ les coûts nécessaires pour soutenir les clients une fois que le produit
+ est en production).
+ Cela comprend l'infrastructure, les équipes de soutien et les opérations
+ quotidiennes.
+ Par exemple, pour une entreprise de commerce électronique, combien de temps
+ faudra-t-il pour ajouter un nouveau produit à son site, reconstituer un
+ stock ou proposer une nouvelle promotion.
+ Ici, l'objectif est de découvrir l'impact des choix d'ingénierie de l'équipe
+ sur l'ensemble du processus et pas seulement sur le développement.
+\end_layout
+
+\begin_layout Standard
+Au cours des deux dernières décennies, Agile s'est largement répandu en
+ tant que contre-mesure aux méthodologies de cascade où les produits n'ont
+ vu le jour qu'après des mois de spécification, conception, développement
+ et tests.
+ La conséquence inattendue de ce changement de paradigme est que les équipes
+ de développement de produits ont maintenant tendance à se précipiter dans
+ les phases initiales d'un projet.
+ En passant d'un extrême à l'autre, nous avons créé de nouvelles sources
+ de coûts, sous la forme de retouches tout au long du développement, qui
+ sont désormais considérées comme une partie normale du processus itératif.
+\end_layout
+
+\begin_layout Standard
+Le problème est que construire rapidement le produit pour valider son utilité
+ et le retravailler continuellement jusqu'à ce que nous atteignions la bonne
+ cible est un moyen très coûteux d'apprendre.
+ Un certain nombre de startups ont brûlé leurs fonds d'investissement sans
+ jamais trouver un marché assez bon pour leur produit.
+ L'obéeya fournit une approche révolutionnaire pour réduire les inconnues
+ avant de commencer le développement, ce qui a le double effet d'être moins
+ cher et d'accélérer la livraison, de sorte que vous pouvez abandonner une
+ idée quand il n'est pas trop tard ou décider de continuer avec elle et
+ être le premier à introduire votre produit sur le marché.
+ En ce sens, l'obéissance est plus un outil de découverte que de délivrance.
+\end_layout
+
+\end_body
+\end_document
