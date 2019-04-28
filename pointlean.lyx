@@ -4,7 +4,10 @@
 \begin_header
 \save_transient_properties true
 \origin unavailable
-\textclass article
+\textclass extarticle
+\begin_preamble
+\date{}
+\end_preamble
 \use_default_options true
 \maintain_unincluded_children false
 \language french
@@ -79,13 +82,30 @@
 
 \begin_layout Title
 Là où se trouve la vraie force de l'Obeya
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Co-écrit par Régis Medina et Sandrine Olivencia, coach Lean à l'Institut
+ Lean France, et publié initialement sous le titre 
+\begin_inset Quotes cld
+\end_inset
+
+Where the true strength of an obeya lies
+\begin_inset Quotes crd
+\end_inset
+
+ dans Planet Lean le 04/12/2018 (https://planet-lean.com/obeya-tool-discovery/).
 \end_layout
 
-\begin_layout Author
-Régis Medina et Sandrine Olivencia, coachs Lean à l'Institut Lean France
+\end_inset
+
+
 \end_layout
 
-\begin_layout Description
+\begin_layout Standard
+
+\series bold
 La salle d'Obeya diminue le nombre d'inconnus avant le début du développement
  d'un produit.
  En ce sens, il s'agit plus d'un outil de discernement que d'un outil de
@@ -93,6 +113,9 @@ La salle d'Obeya diminue le nombre d'inconnus avant le début du développement
 \end_layout
 
 \begin_layout Standard
+\begin_inset VSpace bigskip
+\end_inset
+
 L'un des principaux défis de la croissance au sein d'une entreprise est
  l'accroissement des équipes dédiées aux produits et à l'ingénierie.
  Les équipes techniques donnent l'impression de ne jamais être assez rapides
@@ -553,27 +576,27 @@ Par exemple, pour un service de covoiturage, le client souhaite se rendre
 \end_layout
 
 \begin_layout Itemize
-Facile à réserver.
+facile à réserver,
 \end_layout
 
 \begin_layout Itemize
-Pas besoin d'attendre trop longtemps.
+pas besoin d'attendre trop longtemps,
 \end_layout
 
 \begin_layout Itemize
-Déplacement confortable.
+déplacement confortable,
 \end_layout
 
 \begin_layout Itemize
-Bonne expérience avec le chauffeur.
+bonne expérience avec le chauffeur,
 \end_layout
 
 \begin_layout Itemize
-Pas trop cher.
+pas trop cher,
 \end_layout
 
 \begin_layout Itemize
-Etc.
+etc.
 \end_layout
 
 \begin_layout Standard
@@ -622,11 +645,11 @@ L'une des premières questions auxquelles le Shusa et son équipe doivent
 
 \begin_layout Itemize
 en faire un élément hautement prioritaire pour tous les intervenants dont
- on a besoin;
+ on a besoin,
 \end_layout
 
 \begin_layout Itemize
-établir la bonne structure de coûts du projet;
+établir la bonne structure de coûts du projet,
 \end_layout
 
 \begin_layout Itemize
@@ -702,7 +725,7 @@ A ce stade, l'un des principaux risques est de modifier les aspects du produit
 \begin_inset Quotes cld
 \end_inset
 
-héritage technique
+technologie patrimoine
 \begin_inset Quotes crd
 \end_inset
 
@@ -711,7 +734,7 @@ héritage technique
 \begin_inset Quotes cld
 \end_inset
 
-dette technique
+technologie boulet
 \begin_inset Quotes crd
 \end_inset
 
@@ -721,8 +744,8 @@ dette technique
 \end_layout
 
 \begin_layout Standard
-L'héritage technique est tout ce qui définit l'essence même du produit et
- justifie son existence.
+La technologie patrimoine est tout ce qui définit l'essence même du produit
+ et justifie son existence.
  Les claviers QWERTY et AZERTY, qui n'ont pas changé en 150 ans depuis l'inventi
 on des machines à écrire, en sont un exemple courant.
  Ces agencements de claviers étranges ont été créés à l'origine pour relever
@@ -733,26 +756,33 @@ on des machines à écrire, en sont un exemple courant.
  mais ils ne sont plus là pour raconter l'histoire.
  Partout dans le monde, les gens s'y sont tellement habitués qu'ils ont
  fortement résisté au changement.
- C'est l'essence même de l'héritage technique.
+ C'est l'essence même de la technologie patrimoine.
 \end_layout
 
 \begin_layout Standard
 Inversement, le système de ressorts qui fait rebondir les touches peut être
- considéré comme une technologie héritée du passé, car de nouvelles approches
- permettent une frappe plus silencieuse et plus rapide.
+ considéré comme une technologie boulet issue du passé, car de nouvelles
+ approches permettent une frappe plus silencieuse et plus rapide.
  Des entreprises comme Apple investissent constamment dans d'autres aspects
  de la technologie (tel la forme et l'espacement des touches ou la distance
- de déplacement vertical) afin de réduire la dette technique tout en conservant
- la même disposition héritée.
+ de déplacement vertical) afin de réduire ces boulets techniques tout en
+ conservant la même disposition.
 \end_layout
 
 \begin_layout Standard
-Mais encore une fois, peut-être même que la mise en page pourrait un jour
- être considérée comme un "héritage", surtout si la technologie de reconnaissanc
-e vocale devenait suffisamment fiable pour remplacer complètement la dactylograp
-hie.
- C'est une discussion sans fin au sein d'une équipe produit, c'est pourquoi
- elle doit avoir lieu dans l'obédience.
+Mais encore une fois, peut-être même que cet ordonnoncement pourrait un
+ jour être considérée comme un 
+\begin_inset Quotes cld
+\end_inset
+
+boulet
+\begin_inset Quotes crd
+\end_inset
+
+, surtout si la technologie de reconnaissance vocale devenait suffisamment
+ fiable pour remplacer complètement la dactylographie.
+ Il s'agit d'une discussion sans fin au sein d'une équipe produit, c'est
+ pourquoi elle doit avoir lieu dans l'Obeya.
 \end_layout
 
 \begin_layout Section
@@ -761,25 +791,41 @@ Construisons-nous un produit de qualité à temps pour battre la concurrence
 \end_layout
 
 \begin_layout Standard
-La découverte s'applique également au processus de développement du produit
+Le discernement s'applique également au processus de développement du produit
  lui-même.
- L'ingénieur en chef et l'équipe produit sont d'accord :
+ L'ingénieur en chef et l'équipe produit s'accordent pour définir :
+\end_layout
+
+\begin_layout Itemize
+comment spécifier et suivre la qualité tout au long du projet,
+\end_layout
+
+\begin_layout Itemize
+les étapes qu'ils doivent franchir pour livrer à temps,
+\end_layout
+
+\begin_layout Itemize
+comment mesurer les coûts.
 \end_layout
 
 \begin_layout Standard
-comment ils définissent et suivent la qualité tout au long du projet ; les
- étapes qu'ils doivent franchir pour livrer à temps ; comment mesurer les
- coûts.
- La qualité fait référence au produit lui-même.
+La qualité fait référence au produit lui-même.
  Les indicateurs de qualité permettent de savoir si les fonctions du produit
  répondent pleinement aux attentes des clients en termes de fiabilité, de
  performance et de facilité d'utilisation.
  Afin de choisir les bons indicateurs qui les guideront tout au long du
  cycle de vie du produit, l'ingénieur en chef et l'équipe produit doivent
- se mettre à la place de leurs clients cibles : qu'est-ce qui ne devrait
- PAS aller de travers ? Prenez une ampoule LED : un gage de qualité peut
- être qu'elle respecte la durée de vie, la luminosité et la couleur attendues,
- qu'elle ne surchauffe pas, ou qu'elle est résistante aux chocs.
+ se mettre à la place de leurs clients cibles
+\begin_inset space ~
+\end_inset
+
+: qu'est-ce qui ne devrait PAS aller de travers ? Prenez une ampoule LED
+\begin_inset space ~
+\end_inset
+
+: un gage de qualité peut être qu'elle respecte la durée de vie, la luminosité
+ et la couleur attendues, qu'elle ne surchauffe pas, ou qu'elle soit résistante
+ aux chocs.
  Ces indicateurs de qualité sont souvent le résultat d'arbitrages techniques
  que l'équipe produit a dû résoudre à l'avance.
  Il est donc logique de les suivre tout au long des étapes de conception
@@ -788,15 +834,15 @@ comment ils définissent et suivent la qualité tout au long du projet ; les
 \end_layout
 
 \begin_layout Standard
-En plus de la qualité, l'ingénieur en chef et l'équipe de produit suivront
- généralement le délai de réalisation à l'aide d'un plan de projet important
- et visible.
+En plus de la qualité, l'ingénieur en chef et l'équipe produit suivront
+ généralement les délais de mise en œuvre à l'aide d'un plan de projet visible
+ et grand.
  Ce plan est utilisé pour aligner tout le monde sur les principaux jalons
  du produit et voir comment les activités et les décisions de chaque équipe
  ont un impact sur les autres.
  Le plan de projet permet aux membres de l'équipe de mieux prévoir les problèmes
  et de discuter des moyens de les résoudre avant qu'ils ne compromettent
- la livraison du produit en temps opportun.
+ la livraison du produit en temps voulu.
  Mais surtout, le plan de projet est un moyen pour l'ingénieur en chef et
  l'équipe produit de découvrir des moyens d'intensifier la collaboration
  entre les différentes équipes et parties prenantes à l'intérieur et à l'extérie
@@ -804,44 +850,48 @@ ur de l'organisation.
 \end_layout
 
 \begin_layout Standard
-Enfin, une obéissance comprend généralement des mesures pour surveiller
- les coûts (non seulement les coûts de développement du produit, mais aussi
- les coûts nécessaires pour soutenir les clients une fois que le produit
+Enfin, une Obeya comprend généralement des métriques pour surveiller les
+ coûts (non seulement les coûts de développement du produit, mais aussi
+ les coûts nécessaires pour accompagner les clients une fois que le produit
  est en production).
- Cela comprend l'infrastructure, les équipes de soutien et les opérations
+ Cela comprend l'infrastructure, les équipes de support et les opérations
  quotidiennes.
  Par exemple, pour une entreprise de commerce électronique, combien de temps
  faudra-t-il pour ajouter un nouveau produit à son site, reconstituer un
- stock ou proposer une nouvelle promotion.
- Ici, l'objectif est de découvrir l'impact des choix d'ingénierie de l'équipe
- sur l'ensemble du processus et pas seulement sur le développement.
+ stock ou lancer une nouvelle promotion.
+ Ici, l'objectif est de découvrir l'impact des choix d'ingénierie sur l'ensemble
+ du processus et pas seulement sur le développement.
 \end_layout
 
 \begin_layout Standard
-Au cours des deux dernières décennies, Agile s'est largement répandu en
- tant que contre-mesure aux méthodologies de cascade où les produits n'ont
- vu le jour qu'après des mois de spécification, conception, développement
- et tests.
+Au cours des deux dernières décennies, le mouvement 
+\emph on
+Agile
+\emph default
+ s'est largement répandu comme contre-mesure aux méthodologies en cascade
+ où les produits ne voient le jour qu'après des mois de spécification, de
+ conception, de développement et de test.
  La conséquence inattendue de ce changement de paradigme est que les équipes
  de développement de produits ont maintenant tendance à se précipiter dans
  les phases initiales d'un projet.
  En passant d'un extrême à l'autre, nous avons créé de nouvelles sources
- de coûts, sous la forme de retouches tout au long du développement, qui
- sont désormais considérées comme une partie normale du processus itératif.
+ de coût, sous la forme de retouches tout au long du développement.
+ Des retouches qui sont désormais considérées comme une partie normale du
+ processus itératif.
 \end_layout
 
 \begin_layout Standard
 Le problème est que construire rapidement le produit pour valider son utilité
- et le retravailler continuellement jusqu'à ce que nous atteignions la bonne
+ et le retravailler continuellement jusqu'à l'aboutissement de la bonne
  cible est un moyen très coûteux d'apprendre.
- Un certain nombre de startups ont brûlé leurs fonds d'investissement sans
- jamais trouver un marché assez bon pour leur produit.
- L'obéeya fournit une approche révolutionnaire pour réduire les inconnues
+ Un certain nombre de startups ont brûlé les fonds investis sans jamais
+ trouver un marché assez bon pour leur produit.
+ L'Obeya fournit une approche révolutionnaire pour réduire les inconnues
  avant de commencer le développement, ce qui a le double effet d'être moins
  cher et d'accélérer la livraison, de sorte que vous pouvez abandonner une
  idée quand il n'est pas trop tard ou décider de continuer avec elle et
  être le premier à introduire votre produit sur le marché.
- En ce sens, l'obéissance est plus un outil de découverte que de délivrance.
+ En ce sens, l'Obeya est plus un outil de discernement que de livraison.
 \end_layout
 
 \end_body
