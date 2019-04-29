@@ -108,8 +108,7 @@ Where the true strength of an obeya lies
 \series bold
 La salle d'Obeya diminue le nombre d'inconnus avant le début du développement
  d'un produit.
- En ce sens, il s'agit plus d'un outil de discernement que d'un outil de
- livraison.
+ En ce sens, il s'agit plus d'un outil d'exploration que d'un outil de livraison.
 \end_layout
 
 \begin_layout Standard
@@ -177,9 +176,9 @@ livraison
 \emph default
 , c'est à dire à l'organisation des gens et des tâches pour obtenir un résultat
  connu plus efficacement.
- Il s'agit d'une question de 
+ Il s'agit d'une question d
 \emph on
-discernement
+'exploration
 \emph default
 
 \begin_inset space ~
@@ -190,9 +189,9 @@ discernement
 \end_layout
 
 \begin_layout Standard
-Qu'est-ce que le Lean nous apprend de ce 
+Qu'est-ce que le Lean nous apprend de cette 
 \emph on
-discernement
+exploration
 \emph default
 
 \begin_inset space ~
@@ -219,7 +218,7 @@ D'un point de vue lean, la découverte consiste d'abord à apprendre comment
 \begin_layout Standard
 La valeur et les déchets doivent être pris en compte tout au long de la
  chaîne de valeur et pas seulement au cœur du produit technique.
- Par conséquent, le discernement englobe l'ensemble du produit, de l'expérience
+ Par conséquent, l'exploration englobe l'ensemble du produit, de l'expérience
  client aux processus internes de l'entreprise.
 \end_layout
 
@@ -378,7 +377,7 @@ Une Obeya n'est pas un autre outil de gestion de projet.
  un ordre de priorité des caractéristiques.
  Le but est plutôt de réfléchir en profondeur, de parler, d'argumenter sur
  les principaux enjeux du projet.
- C'est un espace de découverte et de discernement.
+ C'est un espace de découverte et d'exploration.
 \end_layout
 
 \begin_layout Standard
@@ -791,7 +790,7 @@ Construisons-nous un produit de qualité à temps pour battre la concurrence
 \end_layout
 
 \begin_layout Standard
-Le discernement s'applique également au processus de développement du produit
+L'exploration s'applique également au processus de développement du produit
  lui-même.
  L'ingénieur en chef et l'équipe produit s'accordent pour définir :
 \end_layout
@@ -891,7 +890,7 @@ Le problème est que construire rapidement le produit pour valider son utilité
  cher et d'accélérer la livraison, de sorte que vous pouvez abandonner une
  idée quand il n'est pas trop tard ou décider de continuer avec elle et
  être le premier à introduire votre produit sur le marché.
- En ce sens, l'Obeya est plus un outil de discernement que de livraison.
+ En ce sens, l'Obeya est plus un outil d'exploration que de livraison.
 \end_layout
 
 \end_body
