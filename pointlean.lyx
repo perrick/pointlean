@@ -81,6 +81,13 @@
 \begin_body
 
 \begin_layout Title
+Point Lean
+\end_layout
+
+\begin_layout Part*
+\begin_inset Newpage newpage
+\end_inset
+
 Là où se trouve la vraie force de l'Obeya
 \begin_inset Foot
 status open
@@ -200,7 +207,7 @@ exploration
 ?
 \end_layout
 
-\begin_layout Part*
+\begin_layout Section*
 Comprendre la valeur
 \begin_inset space ~
 \end_inset
@@ -281,7 +288,7 @@ Qui a besoin d'apprendre quoi pour que le produit soit un succès
 ?
 \end_layout
 
-\begin_layout Part*
+\begin_layout Section*
 Le Shusa
 \end_layout
 
@@ -337,7 +344,7 @@ Les ingénieurs en chef sont une espèce rare, et il n'y en a pas deux identique
  avec un outil spécifique : l'Obeya.
 \end_layout
 
-\begin_layout Part*
+\begin_layout Section*
 L'Obeya
 \end_layout
 
@@ -405,7 +412,7 @@ Il n'y a pas de règles établies pour ce que l'ingénieur en chef et son équip
  Ces sujets se présentent sous la forme de quatre questions.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection*
 Quel est le problème que nous voulons résoudre, et pour qui
 \begin_inset space ~
 \end_inset
@@ -612,7 +619,7 @@ Il en va de même pour les conducteurs, qui doivent choisir entre différentes
  sur ce qui compte le plus.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection*
 Quels sont les avantages escomptés du projet pour l'entreprise ?
 \end_layout
 
@@ -667,7 +674,7 @@ n gérés par personne chaque mois.
 t des ventes qui n'auraient pas été possibles sans ce produit.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection*
 Quelles décisions techniques devons-nous prendre pour créer un produit cohérent
  et rentable
 \begin_inset space ~
@@ -728,7 +735,7 @@ technologie patrimoine
 \begin_inset Quotes crd
 \end_inset
 
- - tout en supprimant les aspects qui créent une complexité inutile et empêchent
+ - tout en conservant les aspects qui créent une complexité inutile et empêchent
  l'innovation - ce que nous appelons 
 \begin_inset Quotes cld
 \end_inset
@@ -784,7 +791,7 @@ boulet
  pourquoi elle doit avoir lieu dans l'Obeya.
 \end_layout
 
-\begin_layout Section
+\begin_layout Subsection*
 Construisons-nous un produit de qualité à temps pour battre la concurrence
  ?
 \end_layout
@@ -891,6 +898,729 @@ Le problème est que construire rapidement le produit pour valider son utilité
  idée quand il n'est pas trop tard ou décider de continuer avec elle et
  être le premier à introduire votre produit sur le marché.
  En ce sens, l'Obeya est plus un outil d'exploration que d'exécution.
+\begin_inset Newpage newpage
+\end_inset
+
+
+\end_layout
+
+\begin_layout Part*
+Le Kanban comme stratégie d'apprentissage
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Co-écrit par Michael Ballé, Jacques Chaize, Orest (Orry) Fiume et Daniel
+ T.
+ Jones, et publié initialement sous le titre « Kanban As A Learning Strategy »
+ dans Planet Lean le 22/03/2019 (https://www.lean.org/LeanPost/Posting.cfm?LeanPost
+Id=1017).
+\end_layout
+
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Les entreprises sont en compétition dans un monde qui a radicalement changé.
+ Il en va de même pour le concept de stratégie.
+ Aujourd'hui, on estime habituellement que la stratégie consiste à établir
+ des objectifs, à élaborer un plan pour atteindre ces objectifs, à suivre
+ les progrès réalisés et à re-planifier en conséquence.
+ Elle est conforme au modèle de compétitivité popularisé par Michael Porter
+ dans lequel les entreprises dominent en identifiant les opportunités de
+ marché puis en vérouillant leur position face à leurs concurrents.
+ Pourtant, la puissance de cette approche reste un débat permanent dans
+ le cadre de marchés dynamiques et face à ce que l'on pourrait appeler des
+ 
+\begin_inset Quotes cld
+\end_inset
+
+problèmes pernicieux
+\begin_inset Quotes crd
+\end_inset
+
+ : ce débat fait rage parmi les experts en stratégie depuis les écrits historiqu
+es de Von Clausewitz sur la 
+\begin_inset Quotes cld
+\end_inset
+
+friction
+\begin_inset Quotes crd
+\end_inset
+
+ et le 
+\begin_inset Quotes cld
+\end_inset
+
+brouillard de la guerre
+\begin_inset Quotes crd
+\end_inset
+
+ où il montre qu'aucun plan ne peut tout à fait garder le contact avec l'ennemi
+ - et à fortiori avec la réalité.
+\end_layout
+
+\begin_layout Standard
+Le succès fulgurant des entreprises Lean (Toyota en est le modèle) offre
+ une alternative puissante à cette notion de stratégie où avoir les meilleurs
+ plans et bénéficier du plus grand levier de négociation priment.
+ Le succès de Toyota pourrait être mieux attribué à sa stratégie allégée,
+ une approche dynamique, agile et axée sur l'apprentissage qui peut se résumer
+ comme suit : comprendre vos défis, vos principaux problèmes pratiques,
+ former vos agents à le faire et savoir comment réagir, faire confiance
+ à leurs initiatives, puis réfléchir à ce qui s'est produit et apprendre
+ rapidement.
+ La stratégie traditionnelle consiste à optimiser la situation telle que
+ nous la voyons (en supposant une connaissance parfaite et l'hypothèse que
+ rien ne changera rapidement) ; l'autre est centrée sur la création d'une
+ dynamique de personnes formées et autonomes qui peuvent s'aligner spontanément
+ sur une intention commune.
+ Relever vos défis, répondre plus rapidement avec tous vos collaborateurs,
+ étudier votre réponse et apprendre à faire les choses d'une nouvelle manière
+ ensemble, voilà la stratégie légère nécessaire pour faire face aux perturbation
+s du XXIe siècle.
+\end_layout
+
+\begin_layout Standard
+La plupart des grandes entreprises du XXe siècle ont fondé leur stratégie
+ sur le principe de l'optimisation par la normalisation : la clé pour gagner
+ de l'argent était de concevoir des produits pour le segment le plus large
+ possible, de trouver le site de production le moins cher pour chaque composant
+ et de travailler en lots pour réduire les coûts unitaires.
+ Ces sociétés ont réalisé des économies d'échelle - l'énorme avantage financier
+ de faire la même chose tout le temps de la même façon, ce qui a fait le
+ succès des McDonald's et des Coca-Colas tant que chaque client est heureux
+ d'acheter le même Big Mac dans le monde entier, tout le temps.
+ Cette approche unique de 
+\begin_inset Quotes cld
+\end_inset
+
+meilleures pratiques
+\begin_inset Quotes crd
+\end_inset
+
+ a eu des avantages, mais s'est révélée incroyablement inflexible et gaspilleuse
+ à la fois en initiatives humaines et en capitaux.
+\end_layout
+
+\begin_layout Standard
+Jusqu'à présent, les bouleversements du XXIe siècle ont consisté à traiter
+ chaque client comme un individu unique, à rechercher des réponses et une
+ connectivité quasi instantanées - un monde très différent en fait.
+ Les progrès de la puissance informatique ont permis aux perturbateurs de
+ Google, Amazon, Apple et Facebook de personnaliser leur réponse à chacun.
+ Google vous donne les réponses à toutes les questions que vous vous posez,
+ Amazon vous envoie tous les produits que vous voulez à partir d'une étagère
+ infinie, Apple vous permet de personnaliser ses appareils de n'importe
+ quelle manière fantasque grâce à des applications, et Facebook vous permet
+ d'exister dans un espace virtuel grâce à l'avatar que vous concevez.
+ Les produits et services peuvent désormais être à la fois évolutifs et
+ personnalisés.
+\end_layout
+
+\begin_layout Standard
+Pourtant, alors que les quelques perturbateurs ont prospéré avec cette approche,
+ la majorité des entreprises établies n'ont pas réussi à saisir le mode
+ de pensée sous-jacent qui sous-tend ce modèle.
+ Ils s'adaptent au nouveau modèle stratégique en réorganisant les processus
+ et les systèmes sans les repenser ni les transformer.
+ Beaucoup d'entreprises croient encore que la numérisation signifie qu'elles
+ doivent exécuter leurs systèmes de traitement par lots à un seul processus
+ sur des ordinateurs.
+ Insensibles aux échecs répétés et à la complexité croissante des solutions
+ informatiques traditionnelles, ils poursuivent leur recherche des " meilleures
+ pratiques " au point que de nombreuses équipes de direction sont réduites
+ à la mise à niveau des systèmes, au recrutement de sous-traitants et à
+ la lutte contre les incendies.
+ Pour tout problème immédiat, la réponse est "nous aurons la solution parfaite
+ dans 2 ans", mais personne ne sait quoi faire maintenant pour résoudre
+ un problème client.
+\end_layout
+
+\begin_layout Standard
+Ces entreprises ne saisissent pas la véritable fonction des nouveaux outils,
+ qui transfèrent en grande partie l'autorité qu'elles avaient l'habitude
+ d'externaliser à l'extérieur, pour la faire revenir entre leurs propres
+ mains.
+ En prenant une photo avec votre smartphone, vous décomposez instantanément
+ l'image en pixels unitaires, ce qui vous permet de la partager immédiatement
+ depuis votre téléphone sur les médias sociaux que vous aimez.
+ C'est un monde à part prendre une photo avec un appareil photo, la faire
+ développer, puis la conserver dans un album.
+\end_layout
+
+\begin_layout Standard
+Nous, les humains, n'utilisons pas les outils correctement si nous ne saisissons
+ pas l'idée qui les sous-tend, ou si notre modèle mental n'est plus d'actualité.
+ Par exemple, à l'époque de la vapeur, les machines dans les usines étaient
+ organisées en lignes droites, chaque machine étant actionnée par une courroie
+ de transmission passant par un arbre central tournant.
+ L'électricité permettait alors de placer les machines n'importe où pour
+ créer des lignes d'écoulement, mais de nombreuses usines sont encore conçues
+ comme des batteries de machines du même processus comme s'il y avait un
+ arbre de ligne centrale.
+ De même, le modèle mental de l'arbre de ligne s'est prolongé longtemps
+ après que les contraintes techniques ont été levées.
+ Aujourd'hui encore, de nombreuses usines fonctionnent comme si cette contrainte
+ était nécessaire : elles continuent à créer des villages de process avec
+ des batteries de mêmes machines produisant des tas de pièces.
+ Ils continuent de concevoir les organisations autour des ministères fonctionnel
+s, avec la conviction que si chaque ministère faisait son travail efficacement,
+ l'ensemble serait efficace d'une façon ou d'une autre.
+\end_layout
+
+\begin_layout Standard
+Ces "membres fantômes" de la production continuent de contraindre les entreprise
+s.
+ Une grande partie de la littérature de gestion du vingtième siècle a porté
+ sur la façon de réparer le gâchis précédent, de la réingénierie des processus,
+ des contrôles du flux de travail informatique, des organisations plates
+ sans grand succès.
+ Aujourd'hui, les directions fonctionnelles sont majoritairement gérées
+ par des systèmes d'information (le véritable patron de toute usine est
+ son système MRP), plus cloisonnées que jamais et plus incapables que jamais
+ de réagir rapidement aux demandes des clients par le travail en équipe.
+ Personne ne se souvient de l'arbre de ligne, mais au moment où vous essayez
+ de créer une cellule de flux multi-processus pour transmettre toute la
+ valeur directement au client, vous heurtez toutes les barrières des fonctions
+ essayant de maintenir la propriété et de gagner des guerres de territoire,
+ plutôt que de coopérer pour transmettre la valeur aux clients.
+ De même, la ligne de flux est le résultat de l'électricité et de la capacité
+ technique de créer de petites machines à chaque étape du processus, de
+ les placer là où elles ont plus de sens pour construire le produit en séquence
+ un par un et de l'envoyer immédiatement aux clients.
+\end_layout
+
+\begin_layout Standard
+Ce qu'il faut, c'est un nouveau départ et un nouvel état d'esprit.
+ La façon de penser des entreprises autochtones qui perturbent le modèle
+ d'affaires du XXe siècle est radicalement différente.
+ Les économies d'échelle n'ont plus beaucoup de sens ; l'économie de l'analyse
+ des données et de l'apprentissage en a, de façon spectaculaire.
+ Il s'agit d'une question de gagnant-gagnant, qui passe par l'orientation
+ client, la rapidité de l'innovation, la concentration des talents et le
+ financement de la croissance par l'accès à des capitaux bon marché plutôt
+ que par la génération laborieuse de profits cumulatifs.
+ Les entreprises traditionnelles essaient en masse d'adhérer au programme,
+ mais il est tout simplement difficile d'y arriver à partir d'ici.
+ Alors, comment y parvenir ?
+\end_layout
+
+\begin_layout Section*
+Le Kanban comme stratégie
+\end_layout
+
+\begin_layout Standard
+Dans les années 1960, un groupe d'ingénieurs de Toyota, qui était alors
+ un constructeur japonais méconnu qui s'était mis à la casse après s'être
+ remis de sa faillite, a eu une idée révolutionnaire.
+ Ils remplaceraient les listes de choses à faire, les programmes de production,
+ etc.
+ par des cartes Kanban.
+ Une carte Kanban est un signal par lequel le processus client va chercher
+ des pièces (composants, informations, travaux) au processus fournisseur
+ précédent où le travail est effectué dans un supermarché.
+ Le supermarché est réapprovisionné par le processus d'approvisionnement
+ sur la base d'un "peu de tout, tout le temps" afin que le travail nécessaire
+ soit toujours disponible en petites quantités.
+ Il fonctionne dans le "temps réel" du flux de travail.
+ Par conséquent, les informations réelles sur les clients sont transmises
+ par le système et les flux de travail y sont renvoyés en réponse.
+ Une carte étant la demande pour la production d'une boîte de pièces, tout
+ comme dans un restaurant, un bout de papier est une commande pour un repas.
+\end_layout
+
+\begin_layout Standard
+Mais l'objectif de Toyota n'était pas seulement de modifier les instructions
+ de travail et la méthode de planification, telle que l'Occident l'a généralemen
+t interprétée (en projetant ses vieilles idées sur une nouvelle perspective)
+ : ils ont aussi immédiatement commencé à mesurer le temps de réponse à
+ une carte.
+ Ils ont suivi le délai de livraison entre la demande spécifique d'une boîte
+ de produits et le moment où cette boîte a été physiquement livrée.
+\end_layout
+
+\begin_layout Standard
+Cet humble système Kanban s'est avéré être une révolution complète parce
+ qu'il a ouvert une nouvelle voie vers l'amélioration.
+ Dans la pensée de gestion dominante, l'amélioration découle de la 
+\begin_inset Quotes cld
+\end_inset
+
+pensée de la conception
+\begin_inset Quotes crd
+\end_inset
+
+ - les gens intelligents comprennent le système dans son ensemble, découvrent
+ ce qui ne va pas et apportent des changements pour un meilleur système.
+\end_layout
+
+\begin_layout Standard
+Avec le Kanban, les problèmes apparaissent à un niveau très détaillé et
+ granulaire : une carte ne peut pas être servie, ou les cartes s'accumulent
+ de manière anormale à un moment donné dans le flux des cartes.
+ Ils révèlent les problèmes au fur et à mesure qu'ils surviennent, là où
+ ils surviennent.
+ Les personnes qui font le travail elles-mêmes peuvent - et même doivent
+ - apprendre à assumer la responsabilité des problèmes et à les résoudre,
+ ce qui crée ensuite un flux d'idées dans toute l'entreprise, et des idées
+ très différentes.
+ Plutôt que d'investir pour " changer tout le système ", les gens du secteur
+ du charbon ont tendance à trouver des moyens astucieux et sans capital
+ pour faire fonctionner les choses, et à ouvrir des solutions créatives
+ auxquelles personne n'aurait pensé en redessinant le système.
+\end_layout
+
+\begin_layout Standard
+Les ingénieurs de Toyota en sont venus à se concentrer sur deux types de
+ problèmes :
+\end_layout
+
+\begin_layout Itemize
+Distinguer les conditions normales des conditions anormales
+\begin_inset Newline newline
+\end_inset
+
+Les articles qui accusaient un retard par rapport au délai de livraison
+ standard, ce qui signifiait qu'il fallait se concentrer immédiatement sur
+ les problèmes.
+ Imaginez que vous devez livrer un travail en deux jours.
+ Si quelque chose se produit et que le travail n'est pas envoyé à votre
+ client le troisième jour, vous savez immédiatement que vous avez un problème
+ ici et maintenant et appelez de l'aide pour revenir à une situation normale.
+\end_layout
+
+\begin_layout Itemize
+Rapprocher la valeur des clients
+\begin_inset Newline newline
+\end_inset
+
+Le temps de réponse standard peut être constamment remis en question et
+ réduit, pour faire émerger de nouveaux problèmes techniques.
+ Si nous livrons normalement le travail en deux jours, fixons-nous le défi
+ de le livrer maintenant en un seul.
+ Cela peut sembler impossible, mais cela nous amène à nous gratter la tête
+ et à trouver de nouvelles façons de faire les choses anciennes - et parfois
+ à trébucher sur des idées novatrices.
+\end_layout
+
+\begin_layout Standard
+Les ingénieurs de Toyota se sont vite rendu compte que les problèmes posés
+ par l'utilisation du Kanban étaient difficiles à résoudre avec les solutions
+ d'ingénierie traditionnelles - ils étaient trop granuleux, trop petits.
+ Ils ont résolu ce problème grâce au kaizen : de petites améliorations continues
+ de la part des équipes de livraison elles-mêmes, soutenues par l'ingénierie
+ en cas de besoin.
+ Le fait d'amener les ingénieurs à soutenir les opérateurs de ligne dans
+ leurs efforts kaizen a enseigné aux ingénieurs de nombreuses façons nouvelles,
+ inattendues et astucieuses de résoudre les problèmes d'ingénierie.
+ Le kanban était un outil clé pour les kaizen, comme ils l'ont découvert.
+\end_layout
+
+\begin_layout Standard
+Encore une fois, l'outil physique influence de façon disproportionnée la
+ réflexion, et au fil du temps, les dirigeants de Toyota ont commencé à
+ penser à leur gamme de voitures avec la même mentalité qui a lancé la carte
+ Kanban.
+ Plutôt que de concevoir de nouveaux modèles pour capter l'ensemble du marché,
+ ils considéraient chaque modèle comme une réponse spécifique aux besoins
+ des clients qu'ils devaient mettre à niveau à un rythme régulier (et essayer
+ de le réduire autant que possible) pour continuer à servir les clients
+ ayant les mêmes besoins.
+ La Corolla, par exemple, a été introduite en 1966 et est actuellement dans
+ sa 11ème génération avec le même principe d'une voiture familiale abordable
+ avec quelques caractéristiques de luxe, qui a été réinterprété tous les
+ 4 ans depuis un demi-siècle.
+ Dans un sens, il y a un Kanban sur la conception de la corolle avec un
+ délai de 4 ans.
+ C'est le modèle que Steve Jobs a embrassé avec l'iPhone, sortant un nouveau
+ modèle chaque année, presque jour pour jour.
+\end_layout
+
+\begin_layout Standard
+Nous avons eu l'occasion de voir de première main l'impact du Kanban au
+ début des années 1990 lorsque nous avons étudié comment Toyota a commencé
+ ses opérations en Europe et a attiré ses fournisseurs locaux dans sa chaîne
+ d'approvisionnement juste à temps en les suppliant de 
+\begin_inset Quotes cld
+\end_inset
+
+ne pas jouer avec les Kanbans
+\begin_inset Quotes crd
+\end_inset
+
+.
+ Auparavant, le fournisseur recevait une commande globale, planifiait sa
+ production en gros lots et expédiait au client lorsque la marchandise était
+ prête.
+ En collaboration avec Toyota, les fournisseurs ont dû apprendre à livrer
+ à Toyota des camions qui arrivaient plusieurs fois par jour avec des manifestes
+ précis nécessitant un peu de tout dans chaque camion, selon les cartes
+ Kanban (tickets papier imprimés à partir des communications électroniques
+ le matin).
+ Ceci a obligé le fournisseur à organiser la consolidation de la préparation
+ des camions en fonction des cartes Kanban, à réduire les lots et à livrer
+ les boîtes une par une.
+ Comme de mettre un costume deux tailles trop petit, cela créait des frictions
+ partout et amenait le fournisseur à résoudre une variété de problèmes :
+\end_layout
+
+\begin_layout Enumerate
+Les problèmes de qualité sont maintenant apparus avec acuité (aucune carte
+ Kanban ne serait servie avec des pièces défectueuses).
+ Plutôt que de produire un lot entier, de l'inspecter, d'isoler les pièces
+ douteuses et de livrer le reste (auquel cas certaines pièces défectueuses
+ passent toujours à travers), les lignes de fournisseurs doivent maintenant
+ livrer à l'expédition uniquement les bonnes pièces - chaque pièce doit
+ satisfaire aux normes de qualité, à chaque fois).
+ Les pièces retravaillées créaient des problèmes sans fin, parce qu'il fallait
+ du temps pour faire une bonne pièce une première fois, ce qui augmentait
+ le temps de réponse, et ainsi de suite.
+\end_layout
+
+\begin_layout Enumerate
+Les questions de flexibilité sont devenues inévitables.
+ Afin de produire un peu de tout en permanence, les changements de format
+ devaient être si simples que les opérateurs eux-mêmes pouvaient les effectuer
+ en fonction de la séquence Kanban.
+ La disposition des cellules a été modifiée encore et encore, les processus
+ ont été améliorés, jusqu'à ce que le travail puisse s'écouler plus ou moins
+ continuellement, passant facilement d'un produit à l'autre dans la famille
+ de produits.
+\end_layout
+
+\begin_layout Enumerate
+Impliquer les gens est devenu tout aussi essentiel qu'il l'avait été au
+ Japon.
+ Au début, les fournisseurs européens ont essayé de résoudre le problème
+ de la manière habituelle avec des ingénieurs concevant des solutions d'ingénier
+ie, mais ils ont vite découvert qu'ils devaient travailler avec les équipes
+ de terrain pour résoudre toutes sortes de petits problèmes, tels que des
+ vis mal vissées, des machines jamais fiables à 100%, une formation transversale
+, une logistique peu acommodante, etc.
+\end_layout
+
+\begin_layout Section*
+Le Kanban comme stratégie d'apprentissage
+\end_layout
+
+\begin_layout Standard
+Au-delà des gains de productivité incroyables que Toyota générait dans l'ensembl
+e de sa chaîne d'approvisionnement, l'impact réel s'est fait sentir dans
+ la façon dont l'entreprise fonctionnait en tant que système.
+ Par exemple, les ingénieurs de produits se sont impliqués, et avec le rythme
+ constant de changement de modèle et de renouvellement des produits, ils
+ ont commencé à utiliser les connaissances acquises grâce aux efforts kaizen
+ pour concevoir des produits plus fonctionnels et moins coûteux.
+ La chaîne d'approvisionnement " juste à temps " de Toyota était bien plus
+ qu'un simple contrôle du flux logistique (qui a déjà entraîné des gains
+ de productivité massifs) - il s'agissait d'organiser un flux de valeur
+ constant pour fabriquer de meilleures voitures et mieux satisfaire la clientèle.
+ La leçon à en tirer est la suivante : il n'y a pas de meilleur, il n'y
+ a que du meilleur.
+\end_layout
+
+\begin_layout Standard
+À bien des égards, le modèle sous-jacent des cartes kanban - utiliser des
+ représentations du travail comme moyen de contrôler ses progrès et de fournir
+ des informations en temps réel aux travailleurs - était un précurseur de
+ l'économie numérique actuelle.
+ La chaîne de valeur juste-à-temps du Kanban est : pixélisée (le délai est
+ suivi boîte par boîte), en temps réel (le défi est toujours de réduire
+ le délai entre la demande et la livraison pour arriver à l'instantané)
+ et connecté comme Kanbans connecter le réseau de valeur entière pour mieux
+ satisfaire les clients.
+ Cette dynamique est à la base de la stratégie principale de Toyota qui
+ consiste à " client unique, client à vie " (se concentrer sur la satisfaction
+ des clients existants plutôt que de chercher à échapper aux problèmes en
+ en convainquant de nouveaux - " churn " en termes modernes), réalisée en
+ " vendre un, en faire un ", ce qui ne peut se faire qu'en utilisant le
+ Kanban et en encourageant, en soutenant, en cajolant tout le monde à tout
+ moment aux efforts kaïzen.
+ C'est là que se trouve l'innovation vraiment perturbatrice de Toyota.
+\end_layout
+
+\begin_layout Standard
+L'héritage kanban de Toyota - ce sont ses idées sous-jacentes - s'inscrit
+ beaucoup plus directement dans l'économie numérique d'aujourd'hui que la
+ plupart des gens ne le réalisent et saisit les éléments essentiels de la
+ stratégie disruptive d'allégement qui est à l'origine de bon nombre des
+ succès actuels.
+ Et pourtant, nous sommes étonnés du nombre de livres "allégés" qui rassurent
+ les lecteurs en leur disant qu'ils peuvent faire "alléger" sans essayer
+ les kanbans, même si tous les succès spectaculaires que nous avons eu le
+ privilège de voir de première main ont commencé avec les kanbans.
+ De même, il n'est pas surprenant que des entreprises perturbatrices comme
+ Amazon aient délibérément construit leurs chaînes d'approvisionnement sur
+ les lignes Toyota, embauchant des cadres bien versés dans le lean thinking
+ pour ce faire.
+ Au fur et à mesure que la poussière se dépose, l'outil est essentiel.
+ L'électricité a permis à Henry Ford de créer la ligne d'écoulement entraînée
+ par convoyeur.
+ Les ingénieurs de Toyota l'ont tout de suite compris dans les années 1930,
+ alors qu'ils construisaient des métiers à tisser.
+ Ce n'est qu'à la fin du siècle dernier que les constructeurs d'avions ont
+ commencé à expérimenter les premières conduites d'écoulement et, malgré
+ les progrès que cela a permis, cela ne s'est pas encore répandu dans l'industri
+e.
+\end_layout
+
+\begin_layout Standard
+Toyota a offert au monde entier une méthode pour passer de la mentalité
+ industrielle traditionnelle à la pensée moderne de la rupture numérique.
+ Ils l'ont élaboré avant tout le monde et l'ont rédigé avec rigueur pour
+ informer leurs fournisseurs et les opérations de transplantation.
+ Nous l'avons découvert à la fin des années 80, lorsque nous avons inventé
+ le terme "lean" pour décrire ces idées fondamentales, et nous avons étudié
+ les différents efforts pour traduire cette pensée en dehors de Toyota et
+ plus largement de l'industrie automobile.
+ Ce que nous avons découvert a confirmé que les modèles mentaux sont incroyablem
+ent collants - que même les personnes les plus intelligentes ont de la difficult
+é à changer d'idée.
+ En passant en revue les vingt dernières années d'expériences sur le Lean,
+ nous nous sommes demandé quelles idées doivent changer afin d'adopter la
+ méthode de la pensée allégée pour transformer les entreprises et les préparer
+ aux défis à venir.
+ Nous avons apporté quatre changements à notre pensée critique :
+\end_layout
+
+\begin_layout Standard
+Apprentissage réutilisable plutôt que l'adoption de pratiques exemplaires
+ La performance résulte d'un engagement dynamique plutôt que d'une optimisation
+ statique Innovation axée sur les personnes, leadership à partir de la base
+ Un changement radical dans la façon dont nous comprenons la prise de décision
+ des cadres supérieurs, avec le cycle de prise de décision Find-Face-Frame-Form
+ plutôt que le cycle habituel Define-Decide-Drive-Deal, et un changement
+ dans le rôle de la hiérarchie d'une chaîne de commandement à une chaîne
+ de soutien.
+ La première raison pour laquelle nous avons constaté que les gens refusent
+ d'examiner le télescope - en particulier, d'adopter les kanbans - est qu'ils
+ considèrent le système Kanban comme une "meilleure pratique" qui remplacera
+ leur planification informatique actuelle par des cartes papier.
+ Il y a ici deux grands malentendus.
+\end_layout
+
+\begin_layout Subsection*
+Il n'y a pas de 
+\begin_inset Quotes cld
+\end_inset
+
+meilleurs pratiques
+\begin_inset Quotes crd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Tout d'abord, l'idée même de "meilleure pratique" est une notion survivante
+ de la "meilleure façon" de Frederick Taylor.
+ Bien sûr, il n'y a pas de meilleure pratique - chaque contexte est différent,
+ et les choses changent trop vite de toute façon.
+ L'obsession de "l'apprentissage réutilisable" est similaire à celle des
+ économies d'échelle.
+ Elle repose sur l'hypothèse erronée que l'apprentissage consiste à appliquer
+ un savoir statique à de nouvelles situations.
+ Aujourd'hui plus que jamais, l'apprentissage consiste à transférer les
+ connaissances dans de nouveaux contextes, ce qui signifie qu'il faut mélanger
+ une première compréhension de l'idée et la réinventer à chaque fois pour
+ mieux comprendre son sens profond.
+ Ce qu'il nous faut, ce sont des moyens d'apprendre plus vite.
+ L'apprentissage réutilisable ne consiste pas à appliquer une "meilleure
+ pratique" à tous les cas possibles, mais à chercher une façon plus intelligente
+ de faire les choses plus efficacement.
+ Pour ce faire, nous avons besoin 1) d'un point de départ, d'une clé pour
+ entrer dans la pièce et 2) d'une direction dans laquelle chercher des solutions
+ (et éviter de répéter les erreurs connues).
+\end_layout
+
+\begin_layout Standard
+Le deuxième malentendu est que le Kanban concerne les cartes - le Kanban
+ concerne la mesure du temps de réponse pour chaque demande individuelle,
+ un concept très différent.
+ Essentiellement, le flux des cartes Kanban est un système circulatoire
+ clé dans une organisation apprenante.
+ Détailler la demande et suivre le temps de réponse (il existe de nombreux
+ outils numériques pour le faire maintenant) est le point d'entrée.
+ Le Kanban est le début de l'apprentissage, pas la fin.
+ En utilisant le Kanban, nous ne mettons pas en œuvre une solution, mais
+ nous cherchons la prochaine étape pour nous améliorer afin de découvrir
+ de nouvelles façons de faire les choses grâce au travail d'équipe entre
+ tous les intervenants.
+ La carte Kanban doit être servie.
+ Les problèmes sont immédiats et urgents.
+ Cela permet à chacun de se concentrer sur la résolution de problèmes innovateur
+s, clairs et actuels, plutôt que d'inventer des applications pour des problèmes
+ qui n'apparaîtront pas du jour au lendemain.
+ L'amélioration prend un sens radicalement différent, à commencer par là
+ où nous en sommes aujourd'hui.
+ Nous devons gérer les courbes d'apprentissage, pas les plans d'action.
+ Nous devons trouver des moyens intelligents de faire les choses difficiles
+ (qui sont difficiles pour chaque concurrent) et non les contourner.
+ Nous devons accélérer l'apprentissage et ne pas rendre les processus et
+ les procédures obsolètes fixes et rigides.
+\end_layout
+
+\begin_layout Standard
+Une meilleure performance résulte de la dynamique d'engagement envers les
+ problèmes pour mieux satisfaire les clients dès maintenant, plutôt que
+ de l'obsession de nombreux dirigeants à optimiser statiquement par la réorganis
+ation et la restructuration de l'empreinte écologique.
+ Améliorez le travail que vous avez maintenant en engageant toutes les personnes
+ à mieux voir leur ligne de vue aux utilisateurs finaux, à mieux comprendre
+ comment ils aident ou entravent leurs clients immédiats, et ce qui peut
+ être amélioré dans la façon dont leur travail pour rendre leur travail
+ plus sûr, plus facile et plus intéressant.
+ Pourtant, la plupart des entreprises préfèrent travailler avec des consultants
+ pour imaginer la mise à niveau du système qui résoudra tous leurs problèmes
+ en trois ans (ce qu'elles ne sauront d'ailleurs jamais faire).
+ Look, try, measure, measure, think, look, look, try, measure, think, is
+ about teaching scientific thinking to everyone all the time, and to create
+ a dynamic of teams of teams rather than smother engagement and initiative
+ with expert-driven processes, procedures and all the usual reasons not
+ to try something new.
+\end_layout
+
+\begin_layout Standard
+Cette nouvelle façon de soutenir une amélioration dynamique exige un type
+ de leadership très différent.
+ Le kaizen quotidien, c'est apprendre à changer, de petites façons tous
+ les jours, en résolvant des problèmes réels pour les clients, les collègues
+ de travail, les partenaires.
+ Cela ne fonctionne que si les dirigeants le soutiennent de première main
+ tous les jours.
+\end_layout
+
+\begin_layout Standard
+Pourtant, paradoxalement, cette approche fondée sur l'apprentissage exige
+ souvent une attitude plus humble et moins certaine de la part des responsables.
+ En utilisant le temps de réponse comme clé d'entrée, la "poignée cognitive"
+ qui permet d'aborder de manière pragmatique de grands problèmes complexes
+ (comme une poignée réelle permet de ramasser une valise volumineuse et
+ encombrante), nous avons vu que la théorie de la décision de gestion repose
+ sur une métaphore profonde "Je suis maître de mon destin".
+ Nous pensons tout naturellement qu'en tant que maîtres de notre destin,
+ notre travail est de trouver la bonne stratégie et d'obtenir l'organisation
+ pour l'exécuter.
+ Quand les choses ne se passent pas comme nous l'espérions, ce n'est pas
+ que la pensée stratégique était erronée, mais que des facteurs inconnus
+ (inconnaissables) et la résistance inévitable au changement nous ont égarés.
+ En examinant la demande article par article et en étudiant le temps de
+ réponse, nous nous sommes rendu compte qu'il existe une métaphore profonde
+ complètement différente en termes de " nous sommes mis au défi et nous
+ répondons - avec nos alliés ".
+ Dans cette vision du monde, nous acceptons que nous serons toujours confrontés
+ à un monde qui change plus vite que les organisations, et que nous ne savons
+ pas comment réagir correctement en raison de nos propres modèles mentaux
+ hérités.
+ La clé de la vélocité réside alors dans le fait de relever le défi plutôt
+ que de regarder autour de l'éléphant dans la salle et de chercher de nouvelles
+ idées avec nos alliés afin d'élaborer de nouvelles réponses plutôt que
+ d'appliquer de vieilles recettes de " meilleures pratiques " qui ne fonctionnen
+t plus.
+\end_layout
+
+\begin_layout Standard
+Le cycle exécutif traditionnel peut être décrit comme (1) Définir le problème
+ à partir de l'information dont vous disposez, (2) Décider d'une stratégie,
+ (3) Conduire cette stratégie à travers la base pour la mettre en œuvre
+ et ensuite (4) Faire face aux conséquences lorsque les choses ne fonctionnent
+ jamais comme prévu.
+ En revanche, nous offrons une vision radicalement différente des choix
+ exécutifs dans (1) Trouver tous les problèmes " maintenant " (grâce aux
+ techniques du " juste à temps "), (2) Faire face aux vrais défis qui émergent
+ et se fixer une mesure de ceux-ci, (3) Les formuler en termes que n'importe
+ qui dans l'entreprise, du membre du comité exécutif au gardien peut comprendre
+ (afin de pouvoir contribuer) et (4) Former les solutions en formant la
+ coordination organisationnelle autour de nouveaux outils et nouvelles idées
+ tout en travaillant, tant avec nos collaborateurs et partenaires, de manière
+ à les faire progresser.
+\end_layout
+
+\begin_layout Standard
+Les possibilités offertes par les nouvelles capacités numériques sur le
+ marché sont maintenant beaucoup plus rapides que ce que la plupart des
+ organisations peuvent absorber.
+ En général, de nombreuses organisations essaient de numériser leurs méthodes
+ de travail actuelles plutôt que d'adopter les idées révolutionnaires qui
+ sous-tendent les outils numériques.
+ Le changement de modèle mental le plus profond nécessaire pour embrasser
+ le siècle numérique est d'abandonner l'idée que nous sommes maîtres de
+ notre destin et que nous imposerons nos brillantes stratégies aux employés,
+ aux clients et aux partenaires, mais de penser en termes de défis et de
+ réponses, et d'étudier la qualité de nos réponses : affronter ensemble
+ nos problèmes et trouver des solutions avec nos alliés.
+ Il en résulte une compréhension radicalement nouvelle de la performance
+ qui résulte d'une dynamique centrée sur les personnes dans l'entreprise
+ où chacun comprend l'intrigue (ce qu'est le jeu et comment il peut y contribuer
+) et où la direction dirige le flux des idées au lieu d'imposer des règles
+ et procédures.
+ Un tel dynamisme s'appuie sur l'apprentissage permanent au fur et à mesure
+ que nous travaillons afin de créer de véritables entreprises apprenantes
+ qui gèrent les courbes d'apprentissage en même temps que le travail quotidien.
+\end_layout
+
+\begin_layout Standard
+En fin de compte, tout tourne autour de l'outil et si cette vision dynamique
+ est un levier, le point de pivot est l'idée simple que nous devrions mesurer
+ le temps de réponse, et non le taux de pièces ou le coût unitaire.
+ Et la meilleure façon de saisir pleinement ce qu'une stratégie numérique
+ perturbatrice peut être est d'expérimenter, comme le font aujourd'hui de
+ nombreuses entreprises informatiques en pleine croissance, avec des cartes
+ Kanban papier pour comprendre intuitivement ce que sont réellement la pixellisa
+tion, l'immédiateté et la connectivité pour répondre aux insatisfactions
+ des clients, mettre les ressources au bon endroit dès maintenant et soutenir
+ l'apprentissage individuel et le travail en équipe.
+ Pour apprendre à perturber, commencez par perturber votre pensée.
+ Pour perturber votre réflexion, perturber votre pratique : essayez d'utiliser
+ le Kanban dans vos propres activités.
+\end_layout
+
+\begin_layout Standard
+Kanban ne ment pas.
+ Un plan d'action vous permet d'établir des priorités et de choisir de faire
+ les choses faciles en premier jusqu'à ce que vous tombiez sur les choses
+ difficiles et que rien ne soit jamais fait.
+ La gestion budgétaire ligne par ligne vous permet de répartir les gains
+ et les pertes sur des lignes comptables pratiques.
+ Mais les cartes Kanban reproduisent mécaniquement la demande des clients
+ et la demande à servir.
+ La logique lean est la suivante : en répondant aux cartes dans le même
+ ordre qu'elles apparaissent, les personnes qui font le travail elles-mêmes
+ apprennent à mieux comprendre ce que leurs clients attendent d'elles, à
+ mieux reconnaître les problèmes, à mieux interpréter les situations anormales
+ et à réagir plus intelligemment.
+ Grâce à ce travail quotidien, les stocks ou l'arriéré sont réduits et une
+ capacité importante est libérée pour faire de la place à de nouveaux produits.
+ De plus, l'apprentissage technique accumulé dans le processus de résolution
+ de tous les petits ou grands problèmes révélés par les cartes Kanban est
+ inestimable pour concevoir de meilleurs nouveaux produits avec des processus
+ de production plus robustes.
+ Non seulement l'utilisation de la capacité libre d'innovation du kanban
+ permet d'apprendre à innover dans la pratique, afin de mieux satisfaire
+ les besoins réels des clients.
+\end_layout
+
+\begin_layout Standard
+En fin de compte, ce changement de pratique apparemment banal mais difficile
+ vous ouvrira les yeux sur une refonte radicale de ce qu'est vraiment une
+ stratégie : la capacité de relever vos défis clairs et présents avec des
+ alliés de confiance, de former vos gestionnaires à mieux comprendre leurs
+ propres réponses et l'intention collective, et d'apprendre à tous les niveaux,
+ du comité exécutif au concierge, comment s'adapter davantage pour faire
+ le travail afin que les affaires, dans leur ensemble, soient plus efficaces
+ et mieux gérées.
+ Il n'y a pas de 
+\begin_inset Quotes cld
+\end_inset
+
+meilleur
+\begin_inset Quotes crd
+\end_inset
+
+, il n'y a que du meilleur, chaque jour, partout, avec tout le monde.
 \end_layout
 
 \end_body
