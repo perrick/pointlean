@@ -1081,38 +1081,58 @@ Ces entreprises ne saisissent pas la véritable fonction de ces nouveaux
 
 \begin_layout Standard
 Nous, les humains, n'utilisons pas les outils correctement si nous ne saisissons
- pas l'idée qui les sous-tend, ou si notre modèle mental n'est plus d'actualité.
+ pas l'idée qui les sous-tend, ou si notre modèle mental n'est plus en phase.
  Par exemple, à l'époque de la vapeur, les machines dans les usines étaient
- organisées en lignes droites, chaque machine étant actionnée par une courroie
+ organisées en ligne droite, chaque machine étant actionnée par une courroie
  de transmission passant par un arbre central tournant.
- L'électricité permettait alors de placer les machines n'importe où pour
- créer des lignes d'écoulement, mais de nombreuses usines sont encore conçues
- comme des batteries de machines du même processus comme s'il y avait un
- arbre de ligne centrale.
- De même, le modèle mental de l'arbre de ligne s'est prolongé longtemps
- après que les contraintes techniques ont été levées.
- Aujourd'hui encore, de nombreuses usines fonctionnent comme si cette contrainte
- était nécessaire : elles continuent à créer des villages de process avec
- des batteries de mêmes machines produisant des tas de pièces.
- Ils continuent de concevoir les organisations autour des ministères fonctionnel
-s, avec la conviction que si chaque ministère faisait son travail efficacement,
- l'ensemble serait efficace d'une façon ou d'une autre.
+ Dès l'arrivée de l'électricité, il devint possible de placer les machines
+ n'importe où dans l'atelier pour créer des lignes de flux.
+ Mais encore de nos jours de nombreuses usines sont conçues avec les machines
+ du même processus installés en batterie comme s'il y avait encore un arbre
+ centrale.
+ De la même manière, le modèle mental de l'arbre de transmission s'est prolongé
+ longtemps après que les contraintes techniques aient été levées.
+ Et de nombreuses usines fonctionnent encore comme si cette contrainte était
+ nécessaire : on continue de regrouper les machines identiques, toutes produisan
+t des tas de pièces.
+ Et on continue de concevoir les organisations autour de départements fonctionne
+ls, avec la conviction que si chaque département faisait son travail efficacemen
+t, l'ensemble serait enfin efficace.
 \end_layout
 
 \begin_layout Standard
-Ces "membres fantômes" de la production continuent de contraindre les entreprise
-s.
- Une grande partie de la littérature de gestion du vingtième siècle a porté
- sur la façon de réparer le gâchis précédent, de la réingénierie des processus,
- des contrôles du flux de travail informatique, des organisations plates
+En production ces 
+\begin_inset Quotes cld
+\end_inset
+
+membres fantômes
+\begin_inset Quotes crd
+\end_inset
+
+ continuent de brider les entreprises.
+ Une grande partie de la littérature de gestion du XXe siècle s'est penché
+ sur la façon de réparer le gâchis précédent, avec de la réingénierie des
+ processus, du contrôle informatisé des flux ou des organisations plates,
  sans grand succès.
- Aujourd'hui, les directions fonctionnelles sont majoritairement gérées
- par des systèmes d'information (le véritable patron de toute usine est
- son système MRP), plus cloisonnées que jamais et plus incapables que jamais
- de réagir rapidement aux demandes des clients par le travail en équipe.
- Personne ne se souvient de l'arbre de ligne, mais au moment où vous essayez
- de créer une cellule de flux multi-processus pour transmettre toute la
- valeur directement au client, vous heurtez toutes les barrières des fonctions
+ Aujourd'hui, ces départements fonctionnels sont majoritairement gérés par
+ des systèmes d'information (le véritable patron de toute usine est son
+ système MRP
+\begin_inset Foot
+status open
+
+\begin_layout Plain Layout
+Le Materials Requirements Planning (ou Planification des Ressources de Productio
+n) est un logiciel qui permet de plannifier une production industrielle,
+ de l'ordonnancer et d'en gérer les stocks.
+\end_layout
+
+\end_inset
+
+), plus cloisonnés que jamais et toujours incapables de réagir rapidement
+ aux demandes ponctuelles des clients par du travail en équipe.
+ Personne ne se souvient de l'arbre de transmission, mais lorsque vous essayez
+ de créer une cellule de travail multi-processus afin de transmettre directement
+ toute la valeur au client, vous heurtez toutes les barrières des fonctions
  essayant de maintenir la propriété et de gagner des guerres de territoire,
  plutôt que de coopérer pour transmettre la valeur aux clients.
  De même, la ligne de flux est le résultat de l'électricité et de la capacité
