@@ -84,6 +84,10 @@
 Point Lean
 \end_layout
 
+\begin_layout Quotation
+Une collection d'essais Lean en écho du chemin Lean chez No Parking.
+\end_layout
+
 \begin_layout Part*
 \begin_inset Newpage newpage
 \end_inset
@@ -963,37 +967,44 @@ brouillard de la guerre
 \end_layout
 
 \begin_layout Standard
-Le succès fulgurant des entreprises Lean (Toyota en est le modèle) offre
+Le succès fulgurant des entreprises Lean (dont Toyota est le modèle) offre
  une alternative puissante à cette notion de stratégie où avoir les meilleurs
  plans et bénéficier du plus grand levier de négociation priment.
- Le succès de Toyota pourrait être mieux attribué à sa stratégie allégée,
- une approche dynamique, agile et axée sur l'apprentissage qui peut se résumer
- comme suit : comprendre vos défis, vos principaux problèmes pratiques,
- former vos agents à le faire et savoir comment réagir, faire confiance
- à leurs initiatives, puis réfléchir à ce qui s'est produit et apprendre
- rapidement.
+ Ce succès, Toyota le doit à sa stratégie lean, une approche dynamique,
+ agile et axée sur l'apprentissage qui peut se résumer comme suit : comprendre
+ ses défis et ses principaux problèmes sur le terrain, former ses équipes
+ à y faire face et savoir comment réagir, faire confiance à leurs initiatives,
+ puis réfléchir à ce qui s'est produit et apprendre rapidement.
  La stratégie traditionnelle consiste à optimiser la situation telle que
- nous la voyons (en supposant une connaissance parfaite et l'hypothèse que
- rien ne changera rapidement) ; l'autre est centrée sur la création d'une
- dynamique de personnes formées et autonomes qui peuvent s'aligner spontanément
- sur une intention commune.
- Relever vos défis, répondre plus rapidement avec tous vos collaborateurs,
- étudier votre réponse et apprendre à faire les choses d'une nouvelle manière
- ensemble, voilà la stratégie légère nécessaire pour faire face aux perturbation
-s du XXIe siècle.
+ nous la voyons (en supposant une connaissance parfaite et en faisant l'hypothès
+e que rien n'évoluera rapidement)
+\begin_inset space ~
+\end_inset
+
+; l'autre est centrée sur la création d'une dynamique entre des personnes
+ formées et autonomes qui peuvent s'aligner spontanément sur une intention
+ commune.
+ Relever ses défis, répondre plus rapidement avec tous ses collaborateurs,
+ étudier sa propre réponse et apprendre à faire les choses d'une nouvelle
+ manière ensemble, voilà la stratégie lean nécessaire pour faire face aux
+ perturbations du XXIe siècle.
 \end_layout
 
 \begin_layout Standard
 La plupart des grandes entreprises du XXe siècle ont fondé leur stratégie
- sur le principe de l'optimisation par la normalisation : la clé pour gagner
+ sur un principe d'optimisation par la normalisation : la clé pour gagner
  de l'argent était de concevoir des produits pour le segment le plus large
  possible, de trouver le site de production le moins cher pour chaque composant
  et de travailler en lots pour réduire les coûts unitaires.
- Ces sociétés ont réalisé des économies d'échelle - l'énorme avantage financier
- de faire la même chose tout le temps de la même façon, ce qui a fait le
- succès des McDonald's et des Coca-Colas tant que chaque client est heureux
- d'acheter le même Big Mac dans le monde entier, tout le temps.
- Cette approche unique de 
+ Ces sociétés ont réalisé de gigantesques économies d'échelle
+\begin_inset space ~
+\end_inset
+
+: les McDonald's et des Coca-Colas ont construit leur succès, en faisiant
+ la même chose tout le temps et de la même façon.
+ Tant que chaque client est heureux d'acheter le même Big Mac dans le monde
+ entier, à chaque instant.
+ Cette approche standardisée des 
 \begin_inset Quotes cld
 \end_inset
 
@@ -1001,54 +1012,71 @@ meilleures pratiques
 \begin_inset Quotes crd
 \end_inset
 
- a eu des avantages, mais s'est révélée incroyablement inflexible et gaspilleuse
- à la fois en initiatives humaines et en capitaux.
+ a eu bien des avantages, mais elle s'est révélée incroyablement inflexible
+ et gaspilleuse à la fois en créativité humaine et en capital.
 \end_layout
 
 \begin_layout Standard
 Jusqu'à présent, les bouleversements du XXIe siècle ont consisté à traiter
- chaque client comme un individu unique, à rechercher des réponses et une
- connectivité quasi instantanées - un monde très différent en fait.
- Les progrès de la puissance informatique ont permis aux perturbateurs de
- Google, Amazon, Apple et Facebook de personnaliser leur réponse à chacun.
- Google vous donne les réponses à toutes les questions que vous vous posez,
- Amazon vous envoie tous les produits que vous voulez à partir d'une étagère
- infinie, Apple vous permet de personnaliser ses appareils de n'importe
- quelle manière fantasque grâce à des applications, et Facebook vous permet
- d'exister dans un espace virtuel grâce à l'avatar que vous concevez.
+ chaque client comme un individu unique, à rechercher des réponses quasi
+ instantanées et une connectivité permanente - de fait un monde très différent.
+ Les progrès de l'informatique ont permis aux disrupteurs tels Google, Amazon,
+ Apple et Facebook de personnaliser leur réponse à chacun.
+ Ainsi Google vous donne une réponse à toutes les questions que vous vous
+ posez, Amazon vous envoie depuis une étagère infinie tous les produits
+ que vous voulez, Apple vous permet de personnaliser ses appareils grâce
+ à une myriade d'applications, chacune plus incroyable que la précédente,
+ et Facebook vous permet d'exister dans un espace virtuel grâce à l'avatar
+ que vous y concevez.
  Les produits et services peuvent désormais être à la fois évolutifs et
  personnalisés.
 \end_layout
 
 \begin_layout Standard
-Pourtant, alors que les quelques perturbateurs ont prospéré avec cette approche,
+Pourtant, alors que quelques disrupteurs ont prospéré grâce à cette approche,
  la majorité des entreprises établies n'ont pas réussi à saisir le mode
- de pensée sous-jacent qui sous-tend ce modèle.
- Ils s'adaptent au nouveau modèle stratégique en réorganisant les processus
- et les systèmes sans les repenser ni les transformer.
+ de pensée sous-jacent à ce modèle.
+ Ils s'adaptent au nouveau modèle stratégique en réorganisant processus
+ et systèmes sans les repenser ni les transformer.
  Beaucoup d'entreprises croient encore que la numérisation signifie qu'elles
- doivent exécuter leurs systèmes de traitement par lots à un seul processus
- sur des ordinateurs.
+ doivent exécuter leurs systèmes standardisés de traitement par lots sur
+ des ordinateurs.
  Insensibles aux échecs répétés et à la complexité croissante des solutions
- informatiques traditionnelles, ils poursuivent leur recherche des " meilleures
- pratiques " au point que de nombreuses équipes de direction sont réduites
- à la mise à niveau des systèmes, au recrutement de sous-traitants et à
- la lutte contre les incendies.
- Pour tout problème immédiat, la réponse est "nous aurons la solution parfaite
- dans 2 ans", mais personne ne sait quoi faire maintenant pour résoudre
- un problème client.
+ informatiques traditionnelles, ils poursuivent leur quête des 
+\begin_inset Quotes cld
+\end_inset
+
+meilleures pratiques
+\begin_inset Quotes crd
+\end_inset
+
+ au point où de nombreuses équipes de direction se bornent à mettre à jour
+ leurs systèmes, à recruter des sous-traitants et à jouer aux pompiers.
+ À tout problème immédiat, la réponse est 
+\emph on
+
+\begin_inset Quotes cld
+\end_inset
+
+nous aurons la solution parfaite dans deux ans
+\begin_inset Quotes crd
+\end_inset
+
+
+\emph default
+, mais personne ne sait quoi faire maintenant pour résoudre le moindre problème
+ client.
 \end_layout
 
 \begin_layout Standard
-Ces entreprises ne saisissent pas la véritable fonction des nouveaux outils,
- qui transfèrent en grande partie l'autorité qu'elles avaient l'habitude
- d'externaliser à l'extérieur, pour la faire revenir entre leurs propres
- mains.
+Ces entreprises ne saisissent pas la véritable fonction de ces nouveaux
+ outils : ils ré-internalisent de fait une grande partie de l'autorité qu'elles
+ avaient l'habitude d'externaliser.
  En prenant une photo avec votre smartphone, vous décomposez instantanément
  l'image en pixels unitaires, ce qui vous permet de la partager immédiatement
- depuis votre téléphone sur les médias sociaux que vous aimez.
- C'est un monde à part prendre une photo avec un appareil photo, la faire
- développer, puis la conserver dans un album.
+ depuis votre téléphone sur n'importe quel réseau social.
+ C'est dans un tout autre monde qu'on prend une photo avec son appareil,
+ qu'on la fait développer avant de la conserver dans son album.
 \end_layout
 
 \begin_layout Standard
