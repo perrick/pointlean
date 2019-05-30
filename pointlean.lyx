@@ -1132,27 +1132,34 @@ n) est un logiciel qui permet de plannifier une production industrielle,
  aux demandes ponctuelles des clients par du travail en équipe.
  Personne ne se souvient de l'arbre de transmission, mais lorsque vous essayez
  de créer une cellule de travail multi-processus afin de transmettre directement
- toute la valeur au client, vous heurtez toutes les barrières des fonctions
- essayant de maintenir la propriété et de gagner des guerres de territoire,
- plutôt que de coopérer pour transmettre la valeur aux clients.
- De même, la ligne de flux est le résultat de l'électricité et de la capacité
- technique de créer de petites machines à chaque étape du processus, de
- les placer là où elles ont plus de sens pour construire le produit en séquence
- un par un et de l'envoyer immédiatement aux clients.
+ toute la valeur au client, vous vous heurtez à tous les services
+\begin_inset space ~
+\end_inset
+
+: eux font le maximum pour maintenir leur pré-carré et gagner des guerres
+ de territoire, sans coopérer ni transmettre la valeur aux clients.
+ Et pareillement, la ligne de production en flux est le résultat de l'électricit
+é et de la capacité technique de créer de petites machines à chaque étape
+ du processus : on les place là où elles ont le plus de sens pour construire
+ le produit pièce-à-pièce avant son envoi directement au client.
 \end_layout
 
 \begin_layout Standard
 Ce qu'il faut, c'est un nouveau départ et un nouvel état d'esprit.
- La façon de penser des entreprises autochtones qui perturbent le modèle
- d'affaires du XXe siècle est radicalement différente.
- Les économies d'échelle n'ont plus beaucoup de sens ; l'économie de l'analyse
- des données et de l'apprentissage en a, de façon spectaculaire.
- Il s'agit d'une question de gagnant-gagnant, qui passe par l'orientation
- client, la rapidité de l'innovation, la concentration des talents et le
- financement de la croissance par l'accès à des capitaux bon marché plutôt
+ La façon de penser des entreprises du numérique - celles qui disuptent
+ le modèle d'affaires issu du XXe siècle - est radicalement différente.
+ Les économies d'échelle n'ont plus beaucoup de sens
+\begin_inset space ~
+\end_inset
+
+; l'économie de l'analyse des données et de l'apprentissage a pris le relais,
+ de façon spectaculaire.
+ Il s'agit désormais pour le vainqueur de tout rafler en se focalisant sur
+ le client, accélerant le rythme des innovations, concentrant les talents
+ tout finançant cette croissance par l'accès à des capitaux bon marché plutôt
  que par la génération laborieuse de profits cumulatifs.
- Les entreprises traditionnelles essaient en masse d'adhérer au programme,
- mais il est tout simplement difficile d'y arriver à partir d'ici.
+ Les entreprises traditionnelles tentent en masse d'adhérer à ce programme,
+ mais il leur est très difficile d'y arriver en partant de là où elles sont.
  Alors, comment y parvenir ?
 \end_layout
 
@@ -1161,64 +1168,94 @@ Le Kanban comme stratégie
 \end_layout
 
 \begin_layout Standard
-Dans les années 1960, un groupe d'ingénieurs de Toyota, qui était alors
- un constructeur japonais méconnu qui s'était mis à la casse après s'être
- remis de sa faillite, a eu une idée révolutionnaire.
+Dans les années 1960, un groupe d'ingénieurs de Toyota - alors un constructeur
+ japonais méconnu en convalescence après être passé au bord de la faillite
+ - a eu une idée révolutionnaire.
  Ils remplaceraient les listes de choses à faire, les programmes de production,
  etc.
  par des cartes Kanban.
- Une carte Kanban est un signal par lequel le processus client va chercher
- des pièces (composants, informations, travaux) au processus fournisseur
- précédent où le travail est effectué dans un supermarché.
- Le supermarché est réapprovisionné par le processus d'approvisionnement
- sur la base d'un "peu de tout, tout le temps" afin que le travail nécessaire
- soit toujours disponible en petites quantités.
- Il fonctionne dans le "temps réel" du flux de travail.
- Par conséquent, les informations réelles sur les clients sont transmises
- par le système et les flux de travail y sont renvoyés en réponse.
- Une carte étant la demande pour la production d'une boîte de pièces, tout
- comme dans un restaurant, un bout de papier est une commande pour un repas.
-\end_layout
-
-\begin_layout Standard
-Mais l'objectif de Toyota n'était pas seulement de modifier les instructions
- de travail et la méthode de planification, telle que l'Occident l'a généralemen
-t interprétée (en projetant ses vieilles idées sur une nouvelle perspective)
- : ils ont aussi immédiatement commencé à mesurer le temps de réponse à
- une carte.
- Ils ont suivi le délai de livraison entre la demande spécifique d'une boîte
- de produits et le moment où cette boîte a été physiquement livrée.
-\end_layout
-
-\begin_layout Standard
-Cet humble système Kanban s'est avéré être une révolution complète parce
- qu'il a ouvert une nouvelle voie vers l'amélioration.
- Dans la pensée de gestion dominante, l'amélioration découle de la 
+ Une carte Kanban est un signal par lequel le processus aval - le client
+ - va chercher des pièces (composants, informations, travaux) auprès du
+ processus amont - le fournisseur - via un 
+\emph on
+supermarché
+\emph default
+.
+ Le supermarché est réachalandé par le processus d'approvisionnement sur
+ la base du 
 \begin_inset Quotes cld
 \end_inset
 
-pensée de la conception
+un peu de tout, tout le temps
 \begin_inset Quotes crd
 \end_inset
 
- - les gens intelligents comprennent le système dans son ensemble, découvrent
- ce qui ne va pas et apportent des changements pour un meilleur système.
+ afin que le travail nécessaire soit toujours disponible en petites quantités.
+ Il fonctionne dans le 
+\begin_inset Quotes cld
+\end_inset
+
+temps réel
+\begin_inset Quotes crd
+\end_inset
+
+ du flux de l'activité.
+ Par conséquent, les informations réelles sur les clients sont transmises
+ par le système et les flux de travail y répondent.
+ Ainsi une carte représente la demande pour la production de pièces, tout
+ comme dans un restaurant, un bout de papier matérialise la commande d'un
+ repas.
+\end_layout
+
+\begin_layout Standard
+L'objectif de Toyota n'était pas seulement de modifier les instructions
+ de travail et la méthode de planification, comme l'Occident l'a généralement
+ compris (en projetant ses vieilles idées sur une nouvelle perspective)
+ : ils ont aussi immédiatement commencé à mesurer le temps de réponse à
+ une carte et ils ont suivi le délai de livraison entre la demande spécifique
+ d'une boîte de pièces et le moment où cette boîte était physiquement livrée.
+\end_layout
+
+\begin_layout Standard
+Ce système du Kanban, si humble, s'est révélé être une révolution radicale
+ parce qu'il a ouvert une nouvelle voie vers l'amélioration.
+ Dans la pensée dominante en gestion, l'amélioration découle d'une 
+\begin_inset Quotes cld
+\end_inset
+
+pensée conceptuelle
+\begin_inset Quotes crd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+: des gens intelligents décortiquent le système dans son ensemble, ils découvren
+t ce qui ne va pas et apportent des changements pour l'améliorer.
 \end_layout
 
 \begin_layout Standard
 Avec le Kanban, les problèmes apparaissent à un niveau très détaillé et
- granulaire : une carte ne peut pas être servie, ou les cartes s'accumulent
- de manière anormale à un moment donné dans le flux des cartes.
- Ils révèlent les problèmes au fur et à mesure qu'ils surviennent, là où
- ils surviennent.
+ granulaire : telle carte ne peut pas être traitée, telles autres s'accumulent
+ de manière anormale en un point particulier du flux.
+ Les Kanbans révèlent les problèmes au fur et à mesure qu'ils surviennent,
+ là où ils surviennent.
  Les personnes qui font le travail elles-mêmes peuvent - et même doivent
- - apprendre à assumer la responsabilité des problèmes et à les résoudre,
- ce qui crée ensuite un flux d'idées dans toute l'entreprise, et des idées
- très différentes.
- Plutôt que d'investir pour " changer tout le système ", les gens du secteur
- du charbon ont tendance à trouver des moyens astucieux et sans capital
- pour faire fonctionner les choses, et à ouvrir des solutions créatives
- auxquelles personne n'aurait pensé en redessinant le système.
+ - apprendre à assumer la responsabilité de ces problèmes et les résoudre,
+ ce qui crée ensuite un flux d'idées dans toute l'entreprise, des idées
+ singulières de surcroît.
+ Loin de la pensée managériale du 
+\begin_inset Quotes cld
+\end_inset
+
+nous devons investir pour changer tout le système
+\begin_inset Quotes crd
+\end_inset
+
+, les gens sur le terrain ont tendance à trouver des moyens astucieux et
+ sans capital pour neutraliser ces problèmes, ouvrant la voie à des solutions
+ créatives auxquelles personne n'aurait pensé lors d'une refonte du système.
 \end_layout
 
 \begin_layout Standard
@@ -1231,13 +1268,17 @@ Distinguer les conditions normales des conditions anormales
 \begin_inset Newline newline
 \end_inset
 
-Les articles qui accusaient un retard par rapport au délai de livraison
- standard, ce qui signifiait qu'il fallait se concentrer immédiatement sur
- les problèmes.
+Les articles qui accusent un retard par rapport au délai de livraison standard,
+ il faut se concentrer immédiatement sur leurs problèmes.
  Imaginez que vous devez livrer un travail en deux jours.
  Si quelque chose se produit et que le travail n'est pas envoyé à votre
- client le troisième jour, vous savez immédiatement que vous avez un problème
- ici et maintenant et appelez de l'aide pour revenir à une situation normale.
+ client le troisième jour, vous savez immédiatement que vous avez un problème,
+ ici et maintenant
+\begin_inset space ~
+\end_inset
+
+: il est plus que temps d'appeler à l'aide pour revenir à une situation
+ normale.
 \end_layout
 
 \begin_layout Itemize
@@ -1245,8 +1286,8 @@ Rapprocher la valeur des clients
 \begin_inset Newline newline
 \end_inset
 
-Le temps de réponse standard peut être constamment remis en question et
- réduit, pour faire émerger de nouveaux problèmes techniques.
+On peut s'attaquer constamment au temps de réponse standard et tenter de
+ le raccourcir : cela fait émerger de nouveaux problèmes techniques.
  Si nous livrons normalement le travail en deux jours, fixons-nous le défi
  de le livrer maintenant en un seul.
  Cela peut sembler impossible, mais cela nous amène à nous gratter la tête
@@ -1255,64 +1296,88 @@ Le temps de réponse standard peut être constamment remis en question et
 \end_layout
 
 \begin_layout Standard
-Les ingénieurs de Toyota se sont vite rendu compte que les problèmes posés
+Ces ingénieurs de Toyota se sont vite rendu compte que les problèmes posés
  par l'utilisation du Kanban étaient difficiles à résoudre avec les solutions
  d'ingénierie traditionnelles - ils étaient trop granuleux, trop petits.
- Ils ont résolu ce problème grâce au kaizen : de petites améliorations continues
- de la part des équipes de livraison elles-mêmes, soutenues par l'ingénierie
- en cas de besoin.
- Le fait d'amener les ingénieurs à soutenir les opérateurs de ligne dans
- leurs efforts kaizen a enseigné aux ingénieurs de nombreuses façons nouvelles,
- inattendues et astucieuses de résoudre les problèmes d'ingénierie.
- Le kanban était un outil clé pour les kaizen, comme ils l'ont découvert.
+ Ce problème-là, ils l'ont résolu grâce au kaizen : de petites améliorations
+ continues de la part des équipes de livraison elles-mêmes, soutenues au
+ besoin par les équipes d'ingénierie.
+ En assistant les opérateurs de la chaîne de production dans leurs efforts
+ de kaizen, ils ont appris au passage de nombreuses et nouvelles façons,
+ souvent inattendues et astucieuses, de résoudre leurs propres problèmes
+ d'ingénierie.
+ Et ils ont découvert que le kanban était un outil clé pour les kaizen.
 \end_layout
 
 \begin_layout Standard
-Encore une fois, l'outil physique influence de façon disproportionnée la
- réflexion, et au fil du temps, les dirigeants de Toyota ont commencé à
- penser à leur gamme de voitures avec la même mentalité qui a lancé la carte
- Kanban.
+Comme toujours, l'outil physique influence de façon disproportionnée la
+ réflexion.
+ Et au fil du temps, les dirigeants de Toyota ont commencé à imaginer leur
+ gamme de voitures avec l'état d'esprit qui les avait mis sur le chemin
+ de la carte Kanban.
  Plutôt que de concevoir de nouveaux modèles pour capter l'ensemble du marché,
  ils considéraient chaque modèle comme une réponse spécifique aux besoins
- des clients qu'ils devaient mettre à niveau à un rythme régulier (et essayer
- de le réduire autant que possible) pour continuer à servir les clients
- ayant les mêmes besoins.
- La Corolla, par exemple, a été introduite en 1966 et est actuellement dans
- sa 11ème génération avec le même principe d'une voiture familiale abordable
- avec quelques caractéristiques de luxe, qui a été réinterprété tous les
- 4 ans depuis un demi-siècle.
- Dans un sens, il y a un Kanban sur la conception de la corolle avec un
- délai de 4 ans.
- C'est le modèle que Steve Jobs a embrassé avec l'iPhone, sortant un nouveau
+ des clients.
+ Un modèle qu'ils devaient mettre à jour à un rythme régulier (et si possible
+ raccourci à chaque itération) pour continuer à satisfaire les clients ayant
+ les mêmes besoins.
+ La Corolla, par exemple, a été introduite en 1966
+\begin_inset space ~
+\end_inset
+
+: actuellement dans sa 11ème génération, elle continue d'être l'interprétation
+ d'un même principe - une voiture familiale abordable avec quelques caractéristi
+ques 
+\begin_inset Quotes cld
+\end_inset
+
+haut de gamme
+\begin_inset Quotes crd
+\end_inset
+
+ -, principe qui a été réinterprété tous les 4 ans depuis un demi-siècle.
+ Dans un sens, il y a un Kanban pour la conception de la Corolla avec un
+ délai de mise en œuvre de 4 ans.
+ C'est le modèle que Steve Jobs a repris avec l'iPhone, sortant un nouveau
  modèle chaque année, presque jour pour jour.
 \end_layout
 
 \begin_layout Standard
-Nous avons eu l'occasion de voir de première main l'impact du Kanban au
- début des années 1990 lorsque nous avons étudié comment Toyota a commencé
- ses opérations en Europe et a attiré ses fournisseurs locaux dans sa chaîne
- d'approvisionnement juste à temps en les suppliant de 
+Nous avons eu l'occasion de voir directement l'impact du Kanban au début
+ des années 1990 lorsque nous avons étudié comment Toyota a commencé ses
+ opérations en Europe et comment l'entreprise japonaise a adjoint des fournisseu
+rs locaux dans sa chaîne d'approvisionnement à flux tendu en les suppliant
+ de 
 \begin_inset Quotes cld
 \end_inset
 
-ne pas jouer avec les Kanbans
+ne pas jongler avec les Kanbans
 \begin_inset Quotes crd
 \end_inset
 
 .
- Auparavant, le fournisseur recevait une commande globale, planifiait sa
- production en gros lots et expédiait au client lorsque la marchandise était
- prête.
- En collaboration avec Toyota, les fournisseurs ont dû apprendre à livrer
- à Toyota des camions qui arrivaient plusieurs fois par jour avec des manifestes
- précis nécessitant un peu de tout dans chaque camion, selon les cartes
- Kanban (tickets papier imprimés à partir des communications électroniques
- le matin).
- Ceci a obligé le fournisseur à organiser la consolidation de la préparation
- des camions en fonction des cartes Kanban, à réduire les lots et à livrer
- les boîtes une par une.
- Comme de mettre un costume deux tailles trop petit, cela créait des frictions
- partout et amenait le fournisseur à résoudre une variété de problèmes :
+ Jusqu'alors, un fournisseur recevait une commande globale, planifiait sa
+ production en gros lots et l'expédiait au client lorsque toutes les pièces
+ étaient prêtes.
+ En collaboration avec Toyota, ces fournisseurs ont dû apprendre à livrer
+ différement
+\begin_inset space ~
+\end_inset
+
+: des camions arrivaient plusieurs fois par jour avec des manifestes précis
+ nécessitant un peu de tout dans chaque camion, selon les cartes Kanban
+ (dans ce cas précis, des tickets papier imprimés à partir des communications
+ électroniques du matin).
+ Le fournisseur était dès lors obliger de consolider la préparation des
+ camions en fonction des cartes Kanban, à réduire les lots et à livrer les
+ cartons un par un.
+ Comme de mettre un costume deux tailles trop petit, cette nouvelle manière
+ de faire créait des frictions partout et amenait le fournisseur à résoudre
+ tout un panel de problèmes
+\begin_inset space ~
+\end_inset
+
+:
 \end_layout
 
 \begin_layout Enumerate
