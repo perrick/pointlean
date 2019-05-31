@@ -1381,38 +1381,39 @@ ne pas jongler avec les Kanbans
 \end_layout
 
 \begin_layout Enumerate
-Les problèmes de qualité sont maintenant apparus avec acuité (aucune carte
- Kanban ne serait servie avec des pièces défectueuses).
+Les problèmes de qualité sautent au visage (puisqu'aucune carte Kanban ne
+ doit être livrée avec des pièces défectueuses).
  Plutôt que de produire un lot entier, de l'inspecter, d'isoler les pièces
- douteuses et de livrer le reste (auquel cas certaines pièces défectueuses
- passent toujours à travers), les lignes de fournisseurs doivent maintenant
- livrer à l'expédition uniquement les bonnes pièces - chaque pièce doit
- satisfaire aux normes de qualité, à chaque fois).
- Les pièces retravaillées créaient des problèmes sans fin, parce qu'il fallait
- du temps pour faire une bonne pièce une première fois, ce qui augmentait
- le temps de réponse, et ainsi de suite.
+ douteuses et de livrer le reste (avec les quelques pièces défectueuses
+ qui passent toujours à travers), les lignes de production ne devaient déposer
+ à l'expédition que les bonnes pièces - chaque pièce doit satisfaire aux
+ normes de qualité, à chaque fois.
+ Les pièces retravaillées créaient des problèmes sans fin, parce qu'elles
+ empiétaient sur le temps prévu à produire les bonnes pièces suivantes,
+ ce qui augmentait les délais et retards, et ainsi de suite.
 \end_layout
 
 \begin_layout Enumerate
 Les questions de flexibilité sont devenues inévitables.
- Afin de produire un peu de tout en permanence, les changements de format
- devaient être si simples que les opérateurs eux-mêmes pouvaient les effectuer
- en fonction de la séquence Kanban.
+ Afin de produire un peu de tout en permanence, les changements devaient
+ être si simples que les opérateurs eux-mêmes pouvaient les effectuer tout
+ en suivant la séquence des Kanbans.
  La disposition des cellules a été modifiée encore et encore, les processus
  ont été améliorés, jusqu'à ce que le travail puisse s'écouler plus ou moins
- continuellement, passant facilement d'un produit à l'autre dans la famille
+ continuellement, passant facilement d'une pièce à l'autre dans une gamme
  de produits.
 \end_layout
 
 \begin_layout Enumerate
 Impliquer les gens est devenu tout aussi essentiel qu'il l'avait été au
  Japon.
- Au début, les fournisseurs européens ont essayé de résoudre le problème
- de la manière habituelle avec des ingénieurs concevant des solutions d'ingénier
-ie, mais ils ont vite découvert qu'ils devaient travailler avec les équipes
- de terrain pour résoudre toutes sortes de petits problèmes, tels que des
- vis mal vissées, des machines jamais fiables à 100%, une formation transversale
-, une logistique peu acommodante, etc.
+ Au début, les fournisseurs européens ont essayé de résoudre ces problèmes
+ de la manière habituelle - avec des ingénieurs concevant des solutions
+ d'ingénierie -, mais ils ont vite découvert qu'ils devaient travailler
+ en coopération étroite avec les équipes en atelier pour résoudre toutes
+ sortes de petits problèmes, tels que des vis mal vissées, des machines
+ jamais fiables à 100%, des formations transversales, une logistique peu
+ acommodante, etc.
 \end_layout
 
 \begin_layout Section*
@@ -1425,93 +1426,224 @@ e de sa chaîne d'approvisionnement, l'impact réel s'est fait sentir dans
  la façon dont l'entreprise fonctionnait en tant que système.
  Par exemple, les ingénieurs de produits se sont impliqués, et avec le rythme
  constant de changement de modèle et de renouvellement des produits, ils
- ont commencé à utiliser les connaissances acquises grâce aux efforts kaizen
- pour concevoir des produits plus fonctionnels et moins coûteux.
- La chaîne d'approvisionnement " juste à temps " de Toyota était bien plus
- qu'un simple contrôle du flux logistique (qui a déjà entraîné des gains
- de productivité massifs) - il s'agissait d'organiser un flux de valeur
- constant pour fabriquer de meilleures voitures et mieux satisfaire la clientèle.
- La leçon à en tirer est la suivante : il n'y a pas de meilleur, il n'y
- a que du meilleur.
+ ont commencé à utiliser les connaissances acquises grâce aux efforts sur
+ les kaizen pour concevoir des produits plus fonctionnels et moins coûteux.
+ La chaîne d'approvisionnement 
+\begin_inset Quotes cld
+\end_inset
+
+juste-à-temps
+\begin_inset Quotes crd
+\end_inset
+
+ de Toyota était bien plus qu'un simple contrôle du flux logistique (qui
+ a déjà entraîné des gains de productivité massifs)
+\begin_inset space ~
+\end_inset
+
+: il s'agissait d'organiser un flux de valeur constant pour fabriquer de
+ meilleures voitures et mieux satisfaire la clientèle.
+ La leçon à en tirer est qu'il n'y a pas de meilleur, il n'y a que du mieux.
 \end_layout
 
 \begin_layout Standard
-À bien des égards, le modèle sous-jacent des cartes kanban - utiliser des
+À bien des égards, le modèle sous-jacent des cartes Kanban - utiliser des
  représentations du travail comme moyen de contrôler ses progrès et de fournir
- des informations en temps réel aux travailleurs - était un précurseur de
- l'économie numérique actuelle.
+ des informations en temps réel aux travailleurs - était précurseur de l'économi
+e numérique actuelle.
  La chaîne de valeur juste-à-temps du Kanban est : pixélisée (le délai est
  suivi boîte par boîte), en temps réel (le défi est toujours de réduire
  le délai entre la demande et la livraison pour arriver à l'instantané)
- et connecté comme Kanbans connecter le réseau de valeur entière pour mieux
- satisfaire les clients.
- Cette dynamique est à la base de la stratégie principale de Toyota qui
- consiste à " client unique, client à vie " (se concentrer sur la satisfaction
- des clients existants plutôt que de chercher à échapper aux problèmes en
- en convainquant de nouveaux - " churn " en termes modernes), réalisée en
- " vendre un, en faire un ", ce qui ne peut se faire qu'en utilisant le
- Kanban et en encourageant, en soutenant, en cajolant tout le monde à tout
- moment aux efforts kaïzen.
- C'est là que se trouve l'innovation vraiment perturbatrice de Toyota.
+ et connectée (étant donné que le Kanban connecte le réseau de valeur dans
+ sa globalité pour mieux satisfaire les clients).
+ Cette dynamique est à la base de la stratégie principale de Toyota 
+\begin_inset Quotes cld
+\end_inset
+
+client une fois, client à vie
+\begin_inset Quotes crd
+\end_inset
+
+
+\begin_inset space ~
+\end_inset
+
+: se concentrer sur la satisfaction des clients existants plutôt que d'en
+ convaincre de nouveaux - le 
+\begin_inset Quotes cld
+\end_inset
+
+taux de désabonnement
+\begin_inset Quotes crd
+\end_inset
+
+ du monde numérique -, à travers l'adage 
+\begin_inset Quotes cld
+\end_inset
+
+en vendre un, en fabriquer un
+\begin_inset Quotes crd
+\end_inset
+
+ qui ne peut se faire qu'en utilisant le Kanban et encourager, soutenir,
+ cajoler tout le monde tout le temps aux efforts de kaizen.
+ C'est là que se trouve la véritable innovation de rupture de Toyota.
 \end_layout
 
 \begin_layout Standard
-L'héritage kanban de Toyota - ce sont ses idées sous-jacentes - s'inscrit
- beaucoup plus directement dans l'économie numérique d'aujourd'hui que la
- plupart des gens ne le réalisent et saisit les éléments essentiels de la
- stratégie disruptive d'allégement qui est à l'origine de bon nombre des
- succès actuels.
- Et pourtant, nous sommes étonnés du nombre de livres "allégés" qui rassurent
- les lecteurs en leur disant qu'ils peuvent faire "alléger" sans essayer
- les kanbans, même si tous les succès spectaculaires que nous avons eu le
- privilège de voir de première main ont commencé avec les kanbans.
- De même, il n'est pas surprenant que des entreprises perturbatrices comme
+L'héritage du Kanban de Toyota - ses idées sous-jacentes - s'inscrit beaucoup
+ plus directement dans l'économie numérique d'aujourd'hui que la plupart
+ des gens ne le réalisent.
+ Il révèle des éléments essentiels de la stratégie lean et disruptive qui
+ est à l'origine de bon nombre des succès actuels.
+ Et pourtant, nous sommes étonnés du nombre de livres 
+\begin_inset Quotes cld
+\end_inset
+
+lean
+\begin_inset Quotes crd
+\end_inset
+
+ qui rassurent les lecteurs en leur disant qu'ils peuvent faire du 
+\begin_inset Quotes cld
+\end_inset
+
+lean
+\begin_inset Quotes crd
+\end_inset
+
+ sans essayer les kanbans, quand bien même tous les succès spectaculaires
+ que nous avons eu le privilège de voir directement ont commencé avec des
+ kanbans.
+ Ainsi, il n'est pas surprenant que des entreprises révolutionnaires comme
  Amazon aient délibérément construit leurs chaînes d'approvisionnement sur
- les lignes Toyota, embauchant des cadres bien versés dans le lean thinking
- pour ce faire.
+ les lignes Toyota, embauchant au passage des cadres bien versés dans la
+ pensée Lean.
  Au fur et à mesure que la poussière se dépose, l'outil est essentiel.
- L'électricité a permis à Henry Ford de créer la ligne d'écoulement entraînée
+ L'électricité a permis à Henry Ford de créer la ligne de production entraînée
  par convoyeur.
  Les ingénieurs de Toyota l'ont tout de suite compris dans les années 1930,
  alors qu'ils construisaient des métiers à tisser.
  Ce n'est qu'à la fin du siècle dernier que les constructeurs d'avions ont
- commencé à expérimenter les premières conduites d'écoulement et, malgré
- les progrès que cela a permis, cela ne s'est pas encore répandu dans l'industri
-e.
+ commencé à expérimenter de telles lignes et, malgré les progrès qu'elles
+ ont permis, elles ne sont pas encore très poussées dans l'industrie.
 \end_layout
 
 \begin_layout Standard
 Toyota a offert au monde entier une méthode pour passer de la mentalité
- industrielle traditionnelle à la pensée moderne de la rupture numérique.
+ industrielle traditionnelle à la pensée moderne et sa révolution numérique.
  Ils l'ont élaboré avant tout le monde et l'ont rédigé avec rigueur pour
- informer leurs fournisseurs et les opérations de transplantation.
+ éduquer leurs fournisseurs et leurs filiales à l'étranger.
  Nous l'avons découvert à la fin des années 80, lorsque nous avons inventé
- le terme "lean" pour décrire ces idées fondamentales, et nous avons étudié
- les différents efforts pour traduire cette pensée en dehors de Toyota et
- plus largement de l'industrie automobile.
+ le terme 
+\begin_inset Quotes cld
+\end_inset
+
+lean
+\begin_inset Quotes crd
+\end_inset
+
+ pour décrire ces idées fondamentales, et nous avons étudié les différents
+ efforts pour traduire cette pensée en dehors de Toyota et plus largement
+ de l'industrie automobile.
  Ce que nous avons découvert a confirmé que les modèles mentaux sont incroyablem
-ent collants - que même les personnes les plus intelligentes ont de la difficult
-é à changer d'idée.
- En passant en revue les vingt dernières années d'expériences sur le Lean,
- nous nous sommes demandé quelles idées doivent changer afin d'adopter la
- méthode de la pensée allégée pour transformer les entreprises et les préparer
- aux défis à venir.
- Nous avons apporté quatre changements à notre pensée critique :
+ent permanents - que même les personnes les plus intelligentes ont de la
+ difficulté à changer d'idée.
+ Passant en revue les vingt dernières années d'expériences sur le Lean,
+ nous nous sommes demandé quelles idées devaient changer pour que cette
+ pensée puise transformer les entreprises et les préparer aux défis à venir.
+ Nous sommes arrivés à quatre changements critiques pour la pensée
+\begin_inset space ~
+\end_inset
+
+:
+\end_layout
+
+\begin_layout Enumerate
+Un apprentissage réutilisable plutôt que l'adoption de meilleurs pratiques
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+La performance résulte d'un engagement dynamique plutôt que d'une optimisation
+ statique
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+Innovation axée sur les personnes, leadership à partir de la base
+\begin_inset space ~
+\end_inset
+
+;
+\end_layout
+
+\begin_layout Enumerate
+Un changement radical dans la façon dont nous comprenons la prise de décision
+ des cadres supérieurs, avec le cycle de prise de décision 
+\emph on
+Find-Face-Frame-Form
+\emph default
+
+\begin_inset Foot
+status collapsed
+
+\begin_layout Plain Layout
+
+\emph on
+Find
+\emph default
+, résoudre des problèmes concrets de terrain pour distinguer les problèmes
+ qui se dénouent facilement de ceux qui reviennent, qui cachent des sujets
+ durs, auxquels tous les concurrents seront confrontés.
+ 
+\emph on
+Face
+\emph default
+, faire face à ces challenges, avec l’ensemble des fonctions, et avoir le
+ courage d’affronter des sujets difficiles ensemble.
+ 
+\emph on
+Frame
+\emph default
+, exprimer ces challenges de manière à ce que tous les employés, du CEO
+ au réceptionniste comprenne ce que l’entreprise essaye de faire.
+ Et enfin 
+\emph on
+Form
+\emph default
+, coconstruire les solutions avec tout le monde.
+\end_layout
+
+\end_inset
+
+ plutôt que le cycle habituel 
+\emph on
+Define-Decide-Drive-Deal
+\emph default
+, et un changement dans le rôle de la hiérarchie, passant d'une chaîne de
+ commandement à une chaîne de soutien.
 \end_layout
 
 \begin_layout Standard
-Apprentissage réutilisable plutôt que l'adoption de pratiques exemplaires
- La performance résulte d'un engagement dynamique plutôt que d'une optimisation
- statique Innovation axée sur les personnes, leadership à partir de la base
- Un changement radical dans la façon dont nous comprenons la prise de décision
- des cadres supérieurs, avec le cycle de prise de décision Find-Face-Frame-Form
- plutôt que le cycle habituel Define-Decide-Drive-Deal, et un changement
- dans le rôle de la hiérarchie d'une chaîne de commandement à une chaîne
- de soutien.
- La première raison pour laquelle nous avons constaté que les gens refusent
- d'examiner le télescope - en particulier, d'adopter les kanbans - est qu'ils
- considèrent le système Kanban comme une "meilleure pratique" qui remplacera
- leur planification informatique actuelle par des cartes papier.
+La première raison pour laquelle nous avons constaté que les gens refusent
+ de regarder à travers le télescope - c'est à dire d'adopter les kanbans
+ - est qu'ils considèrent le système Kanban comme une 
+\begin_inset Quotes cld
+\end_inset
+
+meilleure pratique
+\begin_inset Quotes crd
+\end_inset
+
+ qui remplacera leur planification informatique actuelle par des cartes
+ papier.
  Il y a ici deux grands malentendus.
 \end_layout
 
