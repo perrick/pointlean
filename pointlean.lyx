@@ -1660,52 +1660,100 @@ meilleurs pratiques
 \end_layout
 
 \begin_layout Standard
-Tout d'abord, l'idée même de "meilleure pratique" est une notion survivante
- de la "meilleure façon" de Frederick Taylor.
- Bien sûr, il n'y a pas de meilleure pratique - chaque contexte est différent,
- et les choses changent trop vite de toute façon.
- L'obsession de "l'apprentissage réutilisable" est similaire à celle des
- économies d'échelle.
+Tout d'abord, l'idée même de 
+\begin_inset Quotes cld
+\end_inset
+
+meilleure pratique
+\begin_inset Quotes crd
+\end_inset
+
+ est une survivance de la 
+\begin_inset Quotes cld
+\end_inset
+
+meilleure manière
+\begin_inset Quotes crd
+\end_inset
+
+ de Frederick Taylor.
+ Bien sûr qu'il n'y a pas de meilleure pratique
+\begin_inset space ~
+\end_inset
+
+: chaque contexte est différent, et les choses changent trop vite de toute
+ façon.
+ L'obsession pour un 
+\begin_inset Quotes cld
+\end_inset
+
+apprentissage réutilisable
+\begin_inset Quotes crd
+\end_inset
+
+ est semblable à celle pour des économies d'échelle.
  Elle repose sur l'hypothèse erronée que l'apprentissage consiste à appliquer
- un savoir statique à de nouvelles situations.
- Aujourd'hui plus que jamais, l'apprentissage consiste à transférer les
- connaissances dans de nouveaux contextes, ce qui signifie qu'il faut mélanger
- une première compréhension de l'idée et la réinventer à chaque fois pour
- mieux comprendre son sens profond.
+ un savoir statique sur de nouvelles situations.
+ Aujourd'hui plus que jamais, l'apprentissage consiste à transférer des
+ connaissances dans de nouveaux contextes, ce qui signifie qu'il faut pétrir
+ une ébauche d'une idée et la réinventer à chaque fois pour mieux en comprendre
+ le sens profond.
  Ce qu'il nous faut, ce sont des moyens d'apprendre plus vite.
- L'apprentissage réutilisable ne consiste pas à appliquer une "meilleure
- pratique" à tous les cas possibles, mais à chercher une façon plus intelligente
- de faire les choses plus efficacement.
- Pour ce faire, nous avons besoin 1) d'un point de départ, d'une clé pour
- entrer dans la pièce et 2) d'une direction dans laquelle chercher des solutions
- (et éviter de répéter les erreurs connues).
+ L'apprentissage réutilisable ne consiste pas à appliquer une 
+\begin_inset Quotes cld
+\end_inset
+
+meilleure pratique
+\begin_inset Quotes crd
+\end_inset
+
+ à tous les cas possibles, mais à chercher une façon de faire les choses
+ plus intelligente et plus efficace.
+ Pour cela, nous avons besoin de deux choses
+\begin_inset space ~
+\end_inset
+
+: primo d'un point de départ, d'une clé pour entrer dans la pièce et secundo
+ d'une direction dans laquelle chercher des solutions (et éviter de répéter
+ les erreurs connues).
 \end_layout
 
 \begin_layout Standard
-Le deuxième malentendu est que le Kanban concerne les cartes - le Kanban
- concerne la mesure du temps de réponse pour chaque demande individuelle,
- un concept très différent.
- Essentiellement, le flux des cartes Kanban est un système circulatoire
+Le deuxième malentendu est que le Kanban, c'est la carte.
+ Alors qu'en fait 
+\emph on
+le Kanban, c'est la mesure du temps de réponse pour chaque demande individuelle
+\emph default
+, une perspective très différente.
+ Fondamentalement, le flux des cartes Kanban est un système de circulation
  clé dans une organisation apprenante.
- Détailler la demande et suivre le temps de réponse (il existe de nombreux
- outils numériques pour le faire maintenant) est le point d'entrée.
- Le Kanban est le début de l'apprentissage, pas la fin.
- En utilisant le Kanban, nous ne mettons pas en œuvre une solution, mais
- nous cherchons la prochaine étape pour nous améliorer afin de découvrir
- de nouvelles façons de faire les choses grâce au travail d'équipe entre
+ Détailler chaque demande et suivre le temps de réponse (il existe de nombreux
+ outils numériques pour le faire maintenant) est le point de départ.
+ Le Kanban est l'amorce de l'apprentissage, pas sa fin.
+ En utilisant le Kanban, nous ne mettons pas en œuvre une solution, nous
+ cherchons plutôt la prochaine étape d'amélioration afin de découvrir de
+ nouvelles façons de faire les choses grâce à un travail d'équipe entre
  tous les intervenants.
- La carte Kanban doit être servie.
+ La carte Kanban doit être traité.
  Les problèmes sont immédiats et urgents.
- Cela permet à chacun de se concentrer sur la résolution de problèmes innovateur
-s, clairs et actuels, plutôt que d'inventer des applications pour des problèmes
- qui n'apparaîtront pas du jour au lendemain.
- L'amélioration prend un sens radicalement différent, à commencer par là
- où nous en sommes aujourd'hui.
+ Cela permet à chacun de se concentrer sur une résolution si possible innovante
+ de problèmes clairs et actuels, plutôt que d'inventer dans l'éther des
+ solutions pour des complications qui n'apparaîtront ni aujourd'hui, ni
+ demain.
+ En commençant par ici et maintenant, 
+\begin_inset Quotes cld
+\end_inset
+
+améliorer
+\begin_inset Quotes crd
+\end_inset
+
+ prend un sens radicalement différent.
  Nous devons gérer les courbes d'apprentissage, pas les plans d'action.
  Nous devons trouver des moyens intelligents de faire les choses difficiles
- (qui sont difficiles pour chaque concurrent) et non les contourner.
- Nous devons accélérer l'apprentissage et ne pas rendre les processus et
- les procédures obsolètes fixes et rigides.
+ (celles qui sont difficiles pour tous les concurrents) et non les contourner.
+ Nous devons accélérer l'apprentissage et éviter de rendre fixes et rigides
+ processus obsolètes et procédures surannées.
 \end_layout
 
 \begin_layout Standard
